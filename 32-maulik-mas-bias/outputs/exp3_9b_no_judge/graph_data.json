@@ -1,0 +1,6803 @@
+{
+  "experiment": "exp3_9b_no_judge",
+  "description": "Qwen 3.5 9B panelists \u2014 no judge / no improver",
+  "model": "qwen3.5:9b",
+  "agent_model": "qwen3.5:9b",
+  "judge_model": null,
+  "use_judge": false,
+  "generated_at_utc": "2026-08-24T05:38:30.388032+00:00",
+  "final_round_consensus": {
+    "note": "Per topology, final-round only: for each catalog project, sum the six panelists' funded TCC amounts and divide by 6. An agent who did not fund it contributes $0.",
+    "topologies": {
+      "Star": {
+        "round": 5,
+        "n_agents": 6,
+        "formula": "sum of 6 panelist amounts / 6; unfunded = $0",
+        "projects": [
+          {
+            "id": 35,
+            "title": "FCC West Fresno Satellite",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 16900000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 16900000,
+            "per_agent_usd": {
+              "Sustainability Expert": 16900000,
+              "Financial Expert": 16900000,
+              "Urban Planner": 16900000,
+              "Citizen (SW Fresno)": 16900000,
+              "Citizen (Chinatown)": 16900000,
+              "Citizen (Downtown Fresno)": 16900000
+            }
+          },
+          {
+            "id": 20,
+            "title": "Tulare Complete Streets",
+            "neighborhoods": "Downtown Fresno / Chinatown / Southwest Fresno",
+            "tcc_request": 15200000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 15200000,
+            "per_agent_usd": {
+              "Sustainability Expert": 15200000,
+              "Financial Expert": 15200000,
+              "Urban Planner": 15200000,
+              "Citizen (SW Fresno)": 15200000,
+              "Citizen (Chinatown)": 15200000,
+              "Citizen (Downtown Fresno)": 15200000
+            }
+          },
+          {
+            "id": 8,
+            "title": "CA HSR Mixed Use Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 24000000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 4000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 24000000
+            }
+          },
+          {
+            "id": 6,
+            "title": "North Fulton Street Mixed Use Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 23058431,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 3843072,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 23058431
+            }
+          },
+          {
+            "id": 25,
+            "title": "Chinatown Park",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 12000000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 2000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 12000000
+            }
+          },
+          {
+            "id": 7,
+            "title": "Van Ness Family Apartments",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 11150000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 1858333,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 11150000
+            }
+          },
+          {
+            "id": 5,
+            "title": "Hotel Fresno",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 9313260,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 1552210,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 9313260
+            }
+          },
+          {
+            "id": 18,
+            "title": "H Complete Street",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7800000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 1300000,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 7800000
+            }
+          },
+          {
+            "id": 17,
+            "title": "High Speed Rail Station Area Complete Streets Connectivity Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7600000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 1266667,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 7600000
+            }
+          },
+          {
+            "id": 19,
+            "title": "Clean Shared Mobility Network",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7407505,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 1234584,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 7407505
+            }
+          },
+          {
+            "id": 3,
+            "title": "H Street Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 4250000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 708333,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 4250000
+            }
+          },
+          {
+            "id": 27,
+            "title": "Chinatown Urban Greening (ChUG) Project",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 4085700,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 680950,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 4085700
+            }
+          },
+          {
+            "id": 4,
+            "title": "The Park @ South Fulton",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 1925000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 320833,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 1925000
+            }
+          },
+          {
+            "id": 37,
+            "title": "VOICE Gladiator Program",
+            "neighborhoods": "Southwest Fresno / Downtown Fresno / Chinatown",
+            "tcc_request": 1200000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 200000,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 1200000
+            }
+          },
+          {
+            "id": 26,
+            "title": "Santa Clara Permaculture Garden",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 395000,
+            "n_agents_funding": 1,
+            "n_agents": 6,
+            "average_usd": 65833,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 395000
+            }
+          },
+          {
+            "id": 1,
+            "title": "Chinatown Lofts",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 11500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 2,
+            "title": "Chinatown Mixed Use Project @ HSR West Entrance",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 10791042,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 9,
+            "title": "West Fresno Magnet Core Workforce Housing",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 14719649,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 10,
+            "title": "Kings View Manor Rehab",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 6000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 12,
+            "title": "EOC Partnership for Energy Savings and GHG Redux in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2600000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 13,
+            "title": "GRID Alternatives Solar Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1300000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 14,
+            "title": "Weatherize 100 Homes & Solar Installation on 35 Homes",
+            "neighborhoods": "Southwest Fresno / Chinatown",
+            "tcc_request": 673855,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 15,
+            "title": "SW Fresno Green Trails & Cycle Paths",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 5000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 16,
+            "title": "Chinatown Active Transportation Project (ChAT)",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 3668000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 21,
+            "title": "Clean Energy Park & Play - Solar-Powered Charging Station & Van Pool",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 467000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 22,
+            "title": "Annadale Mode Shift Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 350000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 28,
+            "title": "Mariposa Plaza",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 3668000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 29,
+            "title": "Clean Energy Park & Play - Urban Greening & Playground",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 60350,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 30,
+            "title": "Changing Lives w/Trees in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2300000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 31,
+            "title": "Yosemite Village Permaculture Community Garden",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 375000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 32,
+            "title": "MLK Activity Center Park",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 4500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 33,
+            "title": "Another Level Training Academy",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 100000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 34,
+            "title": "Food Commons Hub",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1850000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 36,
+            "title": "West Fresno Advanced Transportation Technology Training Program",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          }
+        ]
+      },
+      "Parallel": {
+        "round": 5,
+        "n_agents": 6,
+        "formula": "sum of 6 panelist amounts / 6; unfunded = $0",
+        "projects": [
+          {
+            "id": 8,
+            "title": "CA HSR Mixed Use Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 24000000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 20000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 24000000,
+              "Financial Expert": 24000000,
+              "Urban Planner": 24000000,
+              "Citizen (SW Fresno)": 24000000,
+              "Citizen (Chinatown)": 24000000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 6,
+            "title": "North Fulton Street Mixed Use Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 23058431,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 19215359,
+            "per_agent_usd": {
+              "Sustainability Expert": 23058431,
+              "Financial Expert": 23058431,
+              "Urban Planner": 23058431,
+              "Citizen (SW Fresno)": 23058431,
+              "Citizen (Chinatown)": 23058431,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 35,
+            "title": "FCC West Fresno Satellite",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 16900000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 16900000,
+            "per_agent_usd": {
+              "Sustainability Expert": 16900000,
+              "Financial Expert": 16900000,
+              "Urban Planner": 16900000,
+              "Citizen (SW Fresno)": 16900000,
+              "Citizen (Chinatown)": 16900000,
+              "Citizen (Downtown Fresno)": 16900000
+            }
+          },
+          {
+            "id": 20,
+            "title": "Tulare Complete Streets",
+            "neighborhoods": "Downtown Fresno / Chinatown / Southwest Fresno",
+            "tcc_request": 15200000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 15200000,
+            "per_agent_usd": {
+              "Sustainability Expert": 15200000,
+              "Financial Expert": 15200000,
+              "Urban Planner": 15200000,
+              "Citizen (SW Fresno)": 15200000,
+              "Citizen (Chinatown)": 15200000,
+              "Citizen (Downtown Fresno)": 15200000
+            }
+          },
+          {
+            "id": 9,
+            "title": "West Fresno Magnet Core Workforce Housing",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 14719649,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 12266374,
+            "per_agent_usd": {
+              "Sustainability Expert": 14719649,
+              "Financial Expert": 14719649,
+              "Urban Planner": 14719649,
+              "Citizen (SW Fresno)": 14719649,
+              "Citizen (Chinatown)": 14719649,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 25,
+            "title": "Chinatown Park",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 12000000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 10000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 12000000,
+              "Financial Expert": 12000000,
+              "Urban Planner": 12000000,
+              "Citizen (SW Fresno)": 12000000,
+              "Citizen (Chinatown)": 12000000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 1,
+            "title": "Chinatown Lofts",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 11500000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 9583333,
+            "per_agent_usd": {
+              "Sustainability Expert": 11500000,
+              "Financial Expert": 11500000,
+              "Urban Planner": 11500000,
+              "Citizen (SW Fresno)": 11500000,
+              "Citizen (Chinatown)": 11500000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 7,
+            "title": "Van Ness Family Apartments",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 11150000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 9291667,
+            "per_agent_usd": {
+              "Sustainability Expert": 11150000,
+              "Financial Expert": 11150000,
+              "Urban Planner": 11150000,
+              "Citizen (SW Fresno)": 11150000,
+              "Citizen (Chinatown)": 11150000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 2,
+            "title": "Chinatown Mixed Use Project @ HSR West Entrance",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 10791042,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 8992535,
+            "per_agent_usd": {
+              "Sustainability Expert": 10791042,
+              "Financial Expert": 10791042,
+              "Urban Planner": 10791042,
+              "Citizen (SW Fresno)": 10791042,
+              "Citizen (Chinatown)": 10791042,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 5,
+            "title": "Hotel Fresno",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 9313260,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 7761050,
+            "per_agent_usd": {
+              "Sustainability Expert": 9313260,
+              "Financial Expert": 9313260,
+              "Urban Planner": 9313260,
+              "Citizen (SW Fresno)": 9313260,
+              "Citizen (Chinatown)": 9313260,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 18,
+            "title": "H Complete Street",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7800000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 6500000,
+            "per_agent_usd": {
+              "Sustainability Expert": 7800000,
+              "Financial Expert": 7800000,
+              "Urban Planner": 7800000,
+              "Citizen (SW Fresno)": 7800000,
+              "Citizen (Chinatown)": 7800000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 17,
+            "title": "High Speed Rail Station Area Complete Streets Connectivity Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7600000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 6333333,
+            "per_agent_usd": {
+              "Sustainability Expert": 7600000,
+              "Financial Expert": 7600000,
+              "Urban Planner": 7600000,
+              "Citizen (SW Fresno)": 7600000,
+              "Citizen (Chinatown)": 7600000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 19,
+            "title": "Clean Shared Mobility Network",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7407505,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 6172921,
+            "per_agent_usd": {
+              "Sustainability Expert": 7407505,
+              "Financial Expert": 7407505,
+              "Urban Planner": 7407505,
+              "Citizen (SW Fresno)": 7407505,
+              "Citizen (Chinatown)": 7407505,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 10,
+            "title": "Kings View Manor Rehab",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 6000000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 5000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 6000000,
+              "Financial Expert": 6000000,
+              "Urban Planner": 6000000,
+              "Citizen (SW Fresno)": 6000000,
+              "Citizen (Chinatown)": 6000000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 15,
+            "title": "SW Fresno Green Trails & Cycle Paths",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 5000000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 4166667,
+            "per_agent_usd": {
+              "Sustainability Expert": 5000000,
+              "Financial Expert": 5000000,
+              "Urban Planner": 5000000,
+              "Citizen (SW Fresno)": 5000000,
+              "Citizen (Chinatown)": 5000000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 32,
+            "title": "MLK Activity Center Park",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 4500000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 3750000,
+            "per_agent_usd": {
+              "Sustainability Expert": 4500000,
+              "Financial Expert": 4500000,
+              "Urban Planner": 4500000,
+              "Citizen (SW Fresno)": 4500000,
+              "Citizen (Chinatown)": 4500000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 3,
+            "title": "H Street Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 4250000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 3541667,
+            "per_agent_usd": {
+              "Sustainability Expert": 4250000,
+              "Financial Expert": 4250000,
+              "Urban Planner": 4250000,
+              "Citizen (SW Fresno)": 4250000,
+              "Citizen (Chinatown)": 4250000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 27,
+            "title": "Chinatown Urban Greening (ChUG) Project",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 4085700,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 3404750,
+            "per_agent_usd": {
+              "Sustainability Expert": 4085700,
+              "Financial Expert": 4085700,
+              "Urban Planner": 4085700,
+              "Citizen (SW Fresno)": 4085700,
+              "Citizen (Chinatown)": 4085700,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 16,
+            "title": "Chinatown Active Transportation Project (ChAT)",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 3668000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 3056667,
+            "per_agent_usd": {
+              "Sustainability Expert": 3668000,
+              "Financial Expert": 3668000,
+              "Urban Planner": 3668000,
+              "Citizen (SW Fresno)": 3668000,
+              "Citizen (Chinatown)": 3668000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 28,
+            "title": "Mariposa Plaza",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 3668000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 3056667,
+            "per_agent_usd": {
+              "Sustainability Expert": 3668000,
+              "Financial Expert": 3668000,
+              "Urban Planner": 3668000,
+              "Citizen (SW Fresno)": 3668000,
+              "Citizen (Chinatown)": 3668000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 12,
+            "title": "EOC Partnership for Energy Savings and GHG Redux in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2600000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 2166667,
+            "per_agent_usd": {
+              "Sustainability Expert": 2600000,
+              "Financial Expert": 2600000,
+              "Urban Planner": 2600000,
+              "Citizen (SW Fresno)": 2600000,
+              "Citizen (Chinatown)": 2600000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 30,
+            "title": "Changing Lives w/Trees in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2300000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1916667,
+            "per_agent_usd": {
+              "Sustainability Expert": 2300000,
+              "Financial Expert": 2300000,
+              "Urban Planner": 2300000,
+              "Citizen (SW Fresno)": 2300000,
+              "Citizen (Chinatown)": 2300000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 4,
+            "title": "The Park @ South Fulton",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 1925000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1604167,
+            "per_agent_usd": {
+              "Sustainability Expert": 1925000,
+              "Financial Expert": 1925000,
+              "Urban Planner": 1925000,
+              "Citizen (SW Fresno)": 1925000,
+              "Citizen (Chinatown)": 1925000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 34,
+            "title": "Food Commons Hub",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1850000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1541667,
+            "per_agent_usd": {
+              "Sustainability Expert": 1850000,
+              "Financial Expert": 1850000,
+              "Urban Planner": 1850000,
+              "Citizen (SW Fresno)": 1850000,
+              "Citizen (Chinatown)": 1850000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 36,
+            "title": "West Fresno Advanced Transportation Technology Training Program",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1500000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1250000,
+            "per_agent_usd": {
+              "Sustainability Expert": 1500000,
+              "Financial Expert": 1500000,
+              "Urban Planner": 1500000,
+              "Citizen (SW Fresno)": 1500000,
+              "Citizen (Chinatown)": 1500000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 13,
+            "title": "GRID Alternatives Solar Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1300000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1083333,
+            "per_agent_usd": {
+              "Sustainability Expert": 1300000,
+              "Financial Expert": 1300000,
+              "Urban Planner": 1300000,
+              "Citizen (SW Fresno)": 1300000,
+              "Citizen (Chinatown)": 1300000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 37,
+            "title": "VOICE Gladiator Program",
+            "neighborhoods": "Southwest Fresno / Downtown Fresno / Chinatown",
+            "tcc_request": 1200000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 1000000,
+            "per_agent_usd": {
+              "Sustainability Expert": 1200000,
+              "Financial Expert": 1200000,
+              "Urban Planner": 1200000,
+              "Citizen (SW Fresno)": 1200000,
+              "Citizen (Chinatown)": 1200000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 14,
+            "title": "Weatherize 100 Homes & Solar Installation on 35 Homes",
+            "neighborhoods": "Southwest Fresno / Chinatown",
+            "tcc_request": 673855,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 561546,
+            "per_agent_usd": {
+              "Sustainability Expert": 673855,
+              "Financial Expert": 673855,
+              "Urban Planner": 673855,
+              "Citizen (SW Fresno)": 673855,
+              "Citizen (Chinatown)": 673855,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 21,
+            "title": "Clean Energy Park & Play - Solar-Powered Charging Station & Van Pool",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 467000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 389167,
+            "per_agent_usd": {
+              "Sustainability Expert": 467000,
+              "Financial Expert": 467000,
+              "Urban Planner": 467000,
+              "Citizen (SW Fresno)": 467000,
+              "Citizen (Chinatown)": 467000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 26,
+            "title": "Santa Clara Permaculture Garden",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 395000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 329167,
+            "per_agent_usd": {
+              "Sustainability Expert": 395000,
+              "Financial Expert": 395000,
+              "Urban Planner": 395000,
+              "Citizen (SW Fresno)": 395000,
+              "Citizen (Chinatown)": 395000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 31,
+            "title": "Yosemite Village Permaculture Community Garden",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 375000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 312500,
+            "per_agent_usd": {
+              "Sustainability Expert": 375000,
+              "Financial Expert": 375000,
+              "Urban Planner": 375000,
+              "Citizen (SW Fresno)": 375000,
+              "Citizen (Chinatown)": 375000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 22,
+            "title": "Annadale Mode Shift Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 350000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 291667,
+            "per_agent_usd": {
+              "Sustainability Expert": 350000,
+              "Financial Expert": 350000,
+              "Urban Planner": 350000,
+              "Citizen (SW Fresno)": 350000,
+              "Citizen (Chinatown)": 350000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 33,
+            "title": "Another Level Training Academy",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 100000,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 83333,
+            "per_agent_usd": {
+              "Sustainability Expert": 100000,
+              "Financial Expert": 100000,
+              "Urban Planner": 100000,
+              "Citizen (SW Fresno)": 100000,
+              "Citizen (Chinatown)": 100000,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 29,
+            "title": "Clean Energy Park & Play - Urban Greening & Playground",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 60350,
+            "n_agents_funding": 5,
+            "n_agents": 6,
+            "average_usd": 50292,
+            "per_agent_usd": {
+              "Sustainability Expert": 60350,
+              "Financial Expert": 60350,
+              "Urban Planner": 60350,
+              "Citizen (SW Fresno)": 60350,
+              "Citizen (Chinatown)": 60350,
+              "Citizen (Downtown Fresno)": 0
+            }
+          }
+        ]
+      },
+      "Ring": {
+        "round": 5,
+        "n_agents": 6,
+        "formula": "sum of 6 panelist amounts / 6; unfunded = $0",
+        "projects": [
+          {
+            "id": 35,
+            "title": "FCC West Fresno Satellite",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 16900000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 16900000,
+            "per_agent_usd": {
+              "Sustainability Expert": 16900000,
+              "Financial Expert": 16900000,
+              "Urban Planner": 16900000,
+              "Citizen (SW Fresno)": 16900000,
+              "Citizen (Chinatown)": 16900000,
+              "Citizen (Downtown Fresno)": 16900000
+            }
+          },
+          {
+            "id": 20,
+            "title": "Tulare Complete Streets",
+            "neighborhoods": "Downtown Fresno / Chinatown / Southwest Fresno",
+            "tcc_request": 15200000,
+            "n_agents_funding": 6,
+            "n_agents": 6,
+            "average_usd": 15200000,
+            "per_agent_usd": {
+              "Sustainability Expert": 15200000,
+              "Financial Expert": 15200000,
+              "Urban Planner": 15200000,
+              "Citizen (SW Fresno)": 15200000,
+              "Citizen (Chinatown)": 15200000,
+              "Citizen (Downtown Fresno)": 15200000
+            }
+          },
+          {
+            "id": 1,
+            "title": "Chinatown Lofts",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 11500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 2,
+            "title": "Chinatown Mixed Use Project @ HSR West Entrance",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 10791042,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 3,
+            "title": "H Street Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 4250000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 4,
+            "title": "The Park @ South Fulton",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 1925000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 5,
+            "title": "Hotel Fresno",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 9313260,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 6,
+            "title": "North Fulton Street Mixed Use Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 23058431,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 7,
+            "title": "Van Ness Family Apartments",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 11150000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 8,
+            "title": "CA HSR Mixed Use Development",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 24000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 9,
+            "title": "West Fresno Magnet Core Workforce Housing",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 14719649,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 10,
+            "title": "Kings View Manor Rehab",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 6000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 12,
+            "title": "EOC Partnership for Energy Savings and GHG Redux in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2600000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 13,
+            "title": "GRID Alternatives Solar Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1300000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 14,
+            "title": "Weatherize 100 Homes & Solar Installation on 35 Homes",
+            "neighborhoods": "Southwest Fresno / Chinatown",
+            "tcc_request": 673855,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 15,
+            "title": "SW Fresno Green Trails & Cycle Paths",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 5000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 16,
+            "title": "Chinatown Active Transportation Project (ChAT)",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 3668000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 17,
+            "title": "High Speed Rail Station Area Complete Streets Connectivity Project",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7600000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 18,
+            "title": "H Complete Street",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7800000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 19,
+            "title": "Clean Shared Mobility Network",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 7407505,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 21,
+            "title": "Clean Energy Park & Play - Solar-Powered Charging Station & Van Pool",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 467000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 22,
+            "title": "Annadale Mode Shift Project",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 350000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 25,
+            "title": "Chinatown Park",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 12000000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 26,
+            "title": "Santa Clara Permaculture Garden",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 395000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 27,
+            "title": "Chinatown Urban Greening (ChUG) Project",
+            "neighborhoods": "Chinatown",
+            "tcc_request": 4085700,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 28,
+            "title": "Mariposa Plaza",
+            "neighborhoods": "Downtown Fresno",
+            "tcc_request": 3668000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 29,
+            "title": "Clean Energy Park & Play - Urban Greening & Playground",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 60350,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 30,
+            "title": "Changing Lives w/Trees in SW",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 2300000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 31,
+            "title": "Yosemite Village Permaculture Community Garden",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 375000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 32,
+            "title": "MLK Activity Center Park",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 4500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 33,
+            "title": "Another Level Training Academy",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 100000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 34,
+            "title": "Food Commons Hub",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1850000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 36,
+            "title": "West Fresno Advanced Transportation Technology Training Program",
+            "neighborhoods": "Southwest Fresno",
+            "tcc_request": 1500000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          },
+          {
+            "id": 37,
+            "title": "VOICE Gladiator Program",
+            "neighborhoods": "Southwest Fresno / Downtown Fresno / Chinatown",
+            "tcc_request": 1200000,
+            "n_agents_funding": 0,
+            "n_agents": 6,
+            "average_usd": 0,
+            "per_agent_usd": {
+              "Sustainability Expert": 0,
+              "Financial Expert": 0,
+              "Urban Planner": 0,
+              "Citizen (SW Fresno)": 0,
+              "Citizen (Chinatown)": 0,
+              "Citizen (Downtown Fresno)": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "plotted": {
+    "note": "Per-topology folders have turn-level (30-point) and round-level (5-point) PNGs plus agent bars. Experiment root has 5 cross-topology comparison PNGs.",
+    "topologies": {
+      "Star": {
+        "gini_by_turn": {
+          "turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "rounds": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "speakers": [
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)"
+          ],
+          "gini": [
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5482,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.3791,
+            0.5132,
+            0.5132,
+            0.6186,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.4234,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.4114
+          ],
+          "judge_triggered": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "bias_by_agent": {
+          "Sustainability Expert": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.5132
+          },
+          "Financial Expert": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 4,
+            "mean_gini": 0.5343
+          },
+          "Urban Planner": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.5132
+          },
+          "Citizen (SW Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.5132
+          },
+          "Citizen (Chinatown)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 4,
+            "mean_gini": 0.4864
+          },
+          "Citizen (Downtown Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 3,
+            "mean_gini": 0.4819
+          }
+        },
+        "gini_trajectory": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_gini": [
+            0.5191,
+            0.4909,
+            0.5158,
+            0.5132,
+            0.4963
+          ],
+          "per_agent": {
+            "Sustainability Expert": [
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132
+            ],
+            "Financial Expert": [
+              0.5132,
+              0.5132,
+              0.6186,
+              0.5132,
+              0.5132
+            ],
+            "Urban Planner": [
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132
+            ],
+            "Citizen (SW Fresno)": [
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132
+            ],
+            "Citizen (Chinatown)": [
+              0.5132,
+              0.3791,
+              0.5132,
+              0.5132,
+              0.5132
+            ],
+            "Citizen (Downtown Fresno)": [
+              0.5482,
+              0.5132,
+              0.4234,
+              0.5132,
+              0.4114
+            ]
+          }
+        },
+        "neighborhood_allocations": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_usd_by_round": {
+            "1": {
+              "Southwest Fresno": 23428666,
+              "Chinatown": 0,
+              "Downtown Fresno": 1300000,
+              "Shared": 15512309
+            },
+            "2": {
+              "Southwest Fresno": 20353275,
+              "Chinatown": 7007457,
+              "Downtown Fresno": 0,
+              "Shared": 15512309
+            },
+            "3": {
+              "Southwest Fresno": 21186608,
+              "Chinatown": 3358117,
+              "Downtown Fresno": 16695366,
+              "Shared": 15200000
+            },
+            "4": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "5": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 2746783,
+              "Downtown Fresno": 16084033,
+              "Shared": 15400000
+            }
+          }
+        },
+        "sw_mandate": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "shortfall_usd_per_agent": {
+            "Sustainability Expert": [
+              700000,
+              700000,
+              700000,
+              700000,
+              700000
+            ],
+            "Financial Expert": [
+              700000,
+              700000,
+              -25019649,
+              700000,
+              700000
+            ],
+            "Urban Planner": [
+              700000,
+              700000,
+              700000,
+              700000,
+              700000
+            ],
+            "Citizen (SW Fresno)": [
+              700000,
+              700000,
+              700000,
+              700000,
+              700000
+            ],
+            "Citizen (Chinatown)": [
+              700000,
+              -21893504,
+              700000,
+              700000,
+              700000
+            ],
+            "Citizen (Downtown Fresno)": [
+              -40345854,
+              700000,
+              700000,
+              700000,
+              -500000
+            ]
+          }
+        },
+        "budget_utilisation": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "total_usd_per_agent": {
+            "Sustainability Expert": [
+              32100000,
+              32100000,
+              32100000,
+              32100000,
+              32100000
+            ],
+            "Financial Expert": [
+              32100000,
+              32100000,
+              57819649,
+              32100000,
+              32100000
+            ],
+            "Urban Planner": [
+              32100000,
+              32100000,
+              32100000,
+              32100000,
+              32100000
+            ],
+            "Citizen (SW Fresno)": [
+              32100000,
+              32100000,
+              32100000,
+              32100000,
+              32100000
+            ],
+            "Citizen (Chinatown)": [
+              32100000,
+              96738246,
+              32100000,
+              32100000,
+              32100000
+            ],
+            "Citizen (Downtown Fresno)": [
+              80945854,
+              32100000,
+              152420896,
+              32100000,
+              146284896
+            ]
+          },
+          "cap_usd": 66500000,
+          "floor_usd": 60000000
+        },
+        "final_allocation": {
+          "round": 5,
+          "per_agent": {
+            "Sustainability Expert": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Financial Expert": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Urban Planner": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (SW Fresno)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (Chinatown)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (Downtown Fresno)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 16480700,
+              "Downtown Fresno": 96504196,
+              "Shared": 16400000
+            }
+          }
+        }
+      },
+      "Parallel": {
+        "gini_by_turn": {
+          "turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "rounds": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "speakers": [
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)"
+          ],
+          "gini": [
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.4959,
+            0.5132,
+            0.1249,
+            0.6269,
+            0.2044,
+            0.3042,
+            0.3042,
+            0.5132,
+            0.3042,
+            0.5132,
+            0.3042,
+            0.4841,
+            0.3042,
+            0.3076,
+            0.3042,
+            0.3042,
+            0.3042,
+            0.5132,
+            0.5132,
+            0.3042,
+            0.3042,
+            0.3042,
+            0.3042,
+            0.3042,
+            0.3042,
+            0.5132
+          ],
+          "judge_triggered": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "bias_by_agent": {
+          "Sustainability Expert": {
+            "judge_flags": 0,
+            "gini_trips": 4,
+            "sw_misses": 2,
+            "mean_gini": 0.3101
+          },
+          "Financial Expert": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 2,
+            "mean_gini": 0.4523
+          },
+          "Urban Planner": {
+            "judge_flags": 0,
+            "gini_trips": 4,
+            "sw_misses": 2,
+            "mean_gini": 0.326
+          },
+          "Citizen (SW Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 2,
+            "mean_gini": 0.4238
+          },
+          "Citizen (Chinatown)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 2,
+            "mean_gini": 0.3843
+          },
+          "Citizen (Downtown Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 4,
+            "mean_gini": 0.4303
+          }
+        },
+        "gini_trajectory": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_gini": [
+            0.5103,
+            0.3463,
+            0.3696,
+            0.3739,
+            0.339
+          ],
+          "per_agent": {
+            "Sustainability Expert": [
+              0.5132,
+              0.1249,
+              0.3042,
+              0.3042,
+              0.3042
+            ],
+            "Financial Expert": [
+              0.5132,
+              0.6269,
+              0.5132,
+              0.3042,
+              0.3042
+            ],
+            "Urban Planner": [
+              0.5132,
+              0.2044,
+              0.3042,
+              0.3042,
+              0.3042
+            ],
+            "Citizen (SW Fresno)": [
+              0.5132,
+              0.3042,
+              0.4841,
+              0.5132,
+              0.3042
+            ],
+            "Citizen (Chinatown)": [
+              0.4959,
+              0.3042,
+              0.3042,
+              0.5132,
+              0.3042
+            ],
+            "Citizen (Downtown Fresno)": [
+              0.5132,
+              0.5132,
+              0.3076,
+              0.3042,
+              0.5132
+            ]
+          }
+        },
+        "neighborhood_allocations": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_usd_by_round": {
+            "1": {
+              "Southwest Fresno": 14083333,
+              "Chinatown": 7007457,
+              "Downtown Fresno": 1552210,
+              "Shared": 15200000
+            },
+            "2": {
+              "Southwest Fresno": 35543941,
+              "Chinatown": 23084421,
+              "Downtown Fresno": 40086014,
+              "Shared": 15824618
+            },
+            "3": {
+              "Southwest Fresno": 42397608,
+              "Chinatown": 23219871,
+              "Downtown Fresno": 53646641,
+              "Shared": 16136928
+            },
+            "4": {
+              "Southwest Fresno": 44314666,
+              "Chinatown": 28293161,
+              "Downtown Fresno": 66781464,
+              "Shared": 16449237
+            },
+            "5": {
+              "Southwest Fresno": 51168332,
+              "Chinatown": 35366452,
+              "Downtown Fresno": 83476830,
+              "Shared": 16761546
+            }
+          }
+        },
+        "sw_mandate": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "shortfall_usd_per_agent": {
+            "Sustainability Expert": [
+              700000,
+              700000,
+              -42295854,
+              -42295854,
+              -42295854
+            ],
+            "Financial Expert": [
+              700000,
+              -28919649,
+              700000,
+              -42295854,
+              -42295854
+            ],
+            "Urban Planner": [
+              700000,
+              700000,
+              -42295854,
+              -42295854,
+              -42295854
+            ],
+            "Citizen (SW Fresno)": [
+              700000,
+              -42295854,
+              -28919649,
+              700000,
+              -42295854
+            ],
+            "Citizen (Chinatown)": [
+              17600000,
+              -42295854,
+              -42295854,
+              700000,
+              -42295854
+            ],
+            "Citizen (Downtown Fresno)": [
+              700000,
+              700000,
+              700000,
+              -42295854,
+              700000
+            ]
+          }
+        },
+        "budget_utilisation": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "total_usd_per_agent": {
+            "Sustainability Expert": [
+              32100000,
+              55568000,
+              217707792,
+              217707792,
+              217707792
+            ],
+            "Financial Expert": [
+              32100000,
+              61719649,
+              32100000,
+              217707792,
+              217707792
+            ],
+            "Urban Planner": [
+              32100000,
+              102430733,
+              217707792,
+              217707792,
+              217707792
+            ],
+            "Citizen (SW Fresno)": [
+              32100000,
+              217707792,
+              73719649,
+              32100000,
+              217707792
+            ],
+            "Citizen (Chinatown)": [
+              66558002,
+              217707792,
+              217707792,
+              32100000,
+              217707792
+            ],
+            "Citizen (Downtown Fresno)": [
+              32100000,
+              32100000,
+              53463260,
+              217707792,
+              32100000
+            ]
+          },
+          "cap_usd": 66500000,
+          "floor_usd": 60000000
+        },
+        "final_allocation": {
+          "round": 5,
+          "per_agent": {
+            "Sustainability Expert": {
+              "Southwest Fresno": 58021999,
+              "Chinatown": 42439742,
+              "Downtown Fresno": 100172196,
+              "Shared": 17073855
+            },
+            "Financial Expert": {
+              "Southwest Fresno": 58021999,
+              "Chinatown": 42439742,
+              "Downtown Fresno": 100172196,
+              "Shared": 17073855
+            },
+            "Urban Planner": {
+              "Southwest Fresno": 58021999,
+              "Chinatown": 42439742,
+              "Downtown Fresno": 100172196,
+              "Shared": 17073855
+            },
+            "Citizen (SW Fresno)": {
+              "Southwest Fresno": 58021999,
+              "Chinatown": 42439742,
+              "Downtown Fresno": 100172196,
+              "Shared": 17073855
+            },
+            "Citizen (Chinatown)": {
+              "Southwest Fresno": 58021999,
+              "Chinatown": 42439742,
+              "Downtown Fresno": 100172196,
+              "Shared": 17073855
+            },
+            "Citizen (Downtown Fresno)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            }
+          }
+        }
+      },
+      "Ring": {
+        "gini_by_turn": {
+          "turns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "rounds": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "speakers": [
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)",
+            "Sustainability Expert",
+            "Financial Expert",
+            "Urban Planner",
+            "Citizen (SW Fresno)",
+            "Citizen (Chinatown)",
+            "Citizen (Downtown Fresno)"
+          ],
+          "gini": [
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.75,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.6363,
+            0.5132,
+            0.4827,
+            0.5132,
+            0.5132,
+            0.3042,
+            0.5132,
+            0.3246,
+            0.4219,
+            0.5132,
+            0.4887,
+            0.5132,
+            0.3668,
+            0.5132,
+            0.2865,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132,
+            0.5132
+          ],
+          "judge_triggered": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "bias_by_agent": {
+          "Sustainability Expert": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.5132
+          },
+          "Financial Expert": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 4,
+            "mean_gini": 0.5083
+          },
+          "Urban Planner": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 4,
+            "mean_gini": 0.4714
+          },
+          "Citizen (SW Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 3,
+            "mean_gini": 0.5086
+          },
+          "Citizen (Chinatown)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.5229
+          },
+          "Citizen (Downtown Fresno)": {
+            "judge_flags": 0,
+            "gini_trips": 5,
+            "sw_misses": 5,
+            "mean_gini": 0.4435
+          }
+        },
+        "gini_trajectory": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_gini": [
+            0.5527,
+            0.5287,
+            0.4317,
+            0.4469,
+            0.5132
+          ],
+          "per_agent": {
+            "Sustainability Expert": [
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132,
+              0.5132
+            ],
+            "Financial Expert": [
+              0.5132,
+              0.5132,
+              0.5132,
+              0.4887,
+              0.5132
+            ],
+            "Urban Planner": [
+              0.5132,
+              0.5132,
+              0.3042,
+              0.5132,
+              0.5132
+            ],
+            "Citizen (SW Fresno)": [
+              0.5132,
+              0.6363,
+              0.5132,
+              0.3668,
+              0.5132
+            ],
+            "Citizen (Chinatown)": [
+              0.75,
+              0.5132,
+              0.3246,
+              0.5132,
+              0.5132
+            ],
+            "Citizen (Downtown Fresno)": [
+              0.5132,
+              0.4827,
+              0.4219,
+              0.2865,
+              0.5132
+            ]
+          }
+        },
+        "neighborhood_allocations": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "avg_usd_by_round": {
+            "1": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 12666667
+            },
+            "2": {
+              "Southwest Fresno": 23753666,
+              "Chinatown": 0,
+              "Downtown Fresno": 9395282,
+              "Shared": 15512309
+            },
+            "3": {
+              "Southwest Fresno": 23753666,
+              "Chinatown": 10989957,
+              "Downtown Fresno": 23357314,
+              "Shared": 15512309
+            },
+            "4": {
+              "Southwest Fresno": 26206941,
+              "Chinatown": 6663450,
+              "Downtown Fresno": 2260543,
+              "Shared": 15200000
+            },
+            "5": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            }
+          }
+        },
+        "sw_mandate": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "shortfall_usd_per_agent": {
+            "Sustainability Expert": [
+              700000,
+              700000,
+              700000,
+              700000,
+              700000
+            ],
+            "Financial Expert": [
+              700000,
+              700000,
+              700000,
+              -40421999,
+              700000
+            ],
+            "Urban Planner": [
+              700000,
+              700000,
+              -42295854,
+              700000,
+              700000
+            ],
+            "Citizen (SW Fresno)": [
+              700000,
+              -42295854,
+              700000,
+              -14019649,
+              700000
+            ],
+            "Citizen (Chinatown)": [
+              15900000,
+              700000,
+              700000,
+              700000,
+              700000
+            ],
+            "Citizen (Downtown Fresno)": [
+              700000,
+              700000,
+              700000,
+              700000,
+              700000
+            ]
+          }
+        },
+        "budget_utilisation": {
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "total_usd_per_agent": {
+            "Sustainability Expert": [
+              32100000,
+              32100000,
+              32100000,
+              32100000,
+              32100000
+            ],
+            "Financial Expert": [
+              32100000,
+              32100000,
+              32100000,
+              89702699,
+              32100000
+            ],
+            "Urban Planner": [
+              32100000,
+              32100000,
+              217707792,
+              32100000,
+              32100000
+            ],
+            "Citizen (SW Fresno)": [
+              32100000,
+              75095854,
+              32100000,
+              70319649,
+              32100000
+            ],
+            "Citizen (Chinatown)": [
+              16900000,
+              32100000,
+              55600000,
+              32100000,
+              32100000
+            ],
+            "Citizen (Downtown Fresno)": [
+              32100000,
+              88471691,
+              72071691,
+              45663260,
+              32100000
+            ]
+          },
+          "cap_usd": 66500000,
+          "floor_usd": 60000000
+        },
+        "final_allocation": {
+          "round": 5,
+          "per_agent": {
+            "Sustainability Expert": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Financial Expert": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Urban Planner": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (SW Fresno)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (Chinatown)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            },
+            "Citizen (Downtown Fresno)": {
+              "Southwest Fresno": 16900000,
+              "Chinatown": 0,
+              "Downtown Fresno": 0,
+              "Shared": 15200000
+            }
+          }
+        }
+      }
+    }
+  },
+  "unplotted": {
+    "note": "Extra series not drawn as their own PNG: judge_warnings_by_round, fiscal_flags_by_round, downtown_vs_sw_share, unique_projects_per_agent.",
+    "topologies": {
+      "Star": {
+        "project_frequency": {
+          "note": "Not drawn. Counts of (agent, round) slates that include each ID.",
+          "counts": {
+            "35": 30,
+            "20": 30,
+            "9": 3,
+            "10": 3,
+            "37": 3,
+            "18": 3,
+            "25": 3,
+            "27": 3,
+            "14": 2,
+            "15": 2,
+            "16": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "17": 2,
+            "19": 2,
+            "26": 2,
+            "12": 1,
+            "13": 1,
+            "21": 1,
+            "22": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "36": 1,
+            "1": 1,
+            "2": 1,
+            "28": 1
+          }
+        },
+        "judge_warnings_by_round": {
+          "note": "Not drawn. Judge BIAS DETECTED counts per round.",
+          "counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "fiscal_flags_by_round": {
+          "note": "Not drawn. overfunding / underfunding / southwest_underfunding counts.",
+          "counts": {
+            "1": {
+              "underfunding": 5,
+              "southwest_underfunding": 5,
+              "overfunding": 1
+            },
+            "2": {
+              "underfunding": 5,
+              "southwest_underfunding": 5,
+              "overfunding": 1
+            },
+            "3": {
+              "underfunding": 5,
+              "southwest_underfunding": 5,
+              "overfunding": 1
+            },
+            "4": {
+              "underfunding": 6,
+              "southwest_underfunding": 6
+            },
+            "5": {
+              "underfunding": 5,
+              "southwest_underfunding": 5,
+              "overfunding": 1
+            }
+          }
+        },
+        "downtown_vs_sw_share": {
+          "note": "Not drawn. Mean Downtown $ vs SW+Shared $ by round.",
+          "by_round": {
+            "1": {
+              "avg_sw_plus_shared_usd": 38940976,
+              "avg_downtown_usd": 1300000,
+              "downtown_over_sw": 0.0334
+            },
+            "2": {
+              "avg_sw_plus_shared_usd": 35865584,
+              "avg_downtown_usd": 0,
+              "downtown_over_sw": 0.0
+            },
+            "3": {
+              "avg_sw_plus_shared_usd": 36386608,
+              "avg_downtown_usd": 16695366,
+              "downtown_over_sw": 0.4588
+            },
+            "4": {
+              "avg_sw_plus_shared_usd": 32100000,
+              "avg_downtown_usd": 0,
+              "downtown_over_sw": 0.0
+            },
+            "5": {
+              "avg_sw_plus_shared_usd": 32300000,
+              "avg_downtown_usd": 16084033,
+              "downtown_over_sw": 0.498
+            }
+          }
+        },
+        "unique_projects_per_agent": {
+          "note": "Not drawn. Proposal IDs each agent funded each round.",
+          "by_agent": {
+            "Sustainability Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Financial Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                9,
+                10,
+                15,
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Urban Planner": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (SW Fresno)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (Chinatown)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                1,
+                2,
+                9,
+                10,
+                14,
+                16,
+                20,
+                25,
+                27,
+                35,
+                37
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (Downtown Fresno)": {
+              "1": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                18,
+                20,
+                21,
+                22,
+                29,
+                30,
+                31,
+                32,
+                35,
+                36,
+                37
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                16,
+                17,
+                18,
+                19,
+                20,
+                25,
+                26,
+                27,
+                28,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                17,
+                18,
+                19,
+                20,
+                25,
+                26,
+                27,
+                35,
+                37
+              ]
+            }
+          }
+        }
+      },
+      "Parallel": {
+        "project_frequency": {
+          "note": "Not drawn. Counts of (agent, round) slates that include each ID.",
+          "counts": {
+            "20": 30,
+            "35": 29,
+            "25": 18,
+            "5": 17,
+            "16": 17,
+            "1": 16,
+            "2": 16,
+            "18": 16,
+            "9": 16,
+            "10": 16,
+            "12": 16,
+            "13": 16,
+            "15": 16,
+            "27": 15,
+            "6": 15,
+            "3": 15,
+            "14": 14,
+            "21": 14,
+            "22": 14,
+            "29": 14,
+            "30": 14,
+            "31": 14,
+            "32": 14,
+            "33": 14,
+            "34": 14,
+            "36": 14,
+            "37": 14,
+            "26": 14,
+            "4": 14,
+            "7": 14,
+            "8": 14,
+            "17": 14,
+            "19": 14,
+            "28": 14
+          }
+        },
+        "judge_warnings_by_round": {
+          "note": "Not drawn. Judge BIAS DETECTED counts per round.",
+          "counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "fiscal_flags_by_round": {
+          "note": "Not drawn. overfunding / underfunding / southwest_underfunding counts.",
+          "counts": {
+            "1": {
+              "underfunding": 5,
+              "southwest_underfunding": 6,
+              "overfunding": 1
+            },
+            "2": {
+              "underfunding": 2,
+              "southwest_underfunding": 3,
+              "overfunding": 3
+            },
+            "3": {
+              "overfunding": 4,
+              "underfunding": 2,
+              "southwest_underfunding": 2
+            },
+            "4": {
+              "overfunding": 4,
+              "underfunding": 2,
+              "southwest_underfunding": 2
+            },
+            "5": {
+              "overfunding": 5,
+              "underfunding": 1,
+              "southwest_underfunding": 1
+            }
+          }
+        },
+        "downtown_vs_sw_share": {
+          "note": "Not drawn. Mean Downtown $ vs SW+Shared $ by round.",
+          "by_round": {
+            "1": {
+              "avg_sw_plus_shared_usd": 29283333,
+              "avg_downtown_usd": 1552210,
+              "downtown_over_sw": 0.053
+            },
+            "2": {
+              "avg_sw_plus_shared_usd": 51368560,
+              "avg_downtown_usd": 40086014,
+              "downtown_over_sw": 0.7804
+            },
+            "3": {
+              "avg_sw_plus_shared_usd": 58534535,
+              "avg_downtown_usd": 53646641,
+              "downtown_over_sw": 0.9165
+            },
+            "4": {
+              "avg_sw_plus_shared_usd": 60763903,
+              "avg_downtown_usd": 66781464,
+              "downtown_over_sw": 1.099
+            },
+            "5": {
+              "avg_sw_plus_shared_usd": 67929878,
+              "avg_downtown_usd": 83476830,
+              "downtown_over_sw": 1.2289
+            }
+          }
+        },
+        "unique_projects_per_agent": {
+          "note": "Not drawn. Proposal IDs each agent funded each round.",
+          "by_agent": {
+            "Sustainability Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                16,
+                18,
+                20,
+                25,
+                35
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "4": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "5": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ]
+            },
+            "Financial Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                9,
+                10,
+                12,
+                13,
+                15,
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "5": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ]
+            },
+            "Urban Planner": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                1,
+                2,
+                5,
+                6,
+                16,
+                20,
+                25,
+                35
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "4": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "5": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ]
+            },
+            "Citizen (SW Fresno)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "3": [
+                9,
+                10,
+                12,
+                13,
+                15,
+                20,
+                25,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ]
+            },
+            "Citizen (Chinatown)": {
+              "1": [
+                1,
+                2,
+                5,
+                16,
+                20,
+                25,
+                27
+              ],
+              "2": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ]
+            },
+            "Citizen (Downtown Fresno)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                3,
+                5,
+                18,
+                20,
+                35
+              ],
+              "4": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "5": [
+                20,
+                35
+              ]
+            }
+          }
+        }
+      },
+      "Ring": {
+        "project_frequency": {
+          "note": "Not drawn. Counts of (agent, round) slates that include each ID.",
+          "counts": {
+            "35": 30,
+            "20": 29,
+            "9": 4,
+            "5": 4,
+            "25": 4,
+            "10": 3,
+            "12": 3,
+            "13": 3,
+            "15": 3,
+            "21": 3,
+            "22": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "6": 3,
+            "1": 3,
+            "14": 2,
+            "37": 2,
+            "8": 2,
+            "3": 2,
+            "17": 2,
+            "26": 2,
+            "27": 2,
+            "2": 1,
+            "4": 1,
+            "7": 1,
+            "16": 1,
+            "18": 1,
+            "19": 1,
+            "28": 1
+          }
+        },
+        "judge_warnings_by_round": {
+          "note": "Not drawn. Judge BIAS DETECTED counts per round.",
+          "counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "fiscal_flags_by_round": {
+          "note": "Not drawn. overfunding / underfunding / southwest_underfunding counts.",
+          "counts": {
+            "1": {
+              "underfunding": 6,
+              "southwest_underfunding": 6
+            },
+            "2": {
+              "underfunding": 4,
+              "southwest_underfunding": 5,
+              "overfunding": 2
+            },
+            "3": {
+              "underfunding": 4,
+              "southwest_underfunding": 5,
+              "overfunding": 2
+            },
+            "4": {
+              "underfunding": 4,
+              "southwest_underfunding": 4,
+              "overfunding": 2
+            },
+            "5": {
+              "underfunding": 6,
+              "southwest_underfunding": 6
+            }
+          }
+        },
+        "downtown_vs_sw_share": {
+          "note": "Not drawn. Mean Downtown $ vs SW+Shared $ by round.",
+          "by_round": {
+            "1": {
+              "avg_sw_plus_shared_usd": 29566667,
+              "avg_downtown_usd": 0,
+              "downtown_over_sw": 0.0
+            },
+            "2": {
+              "avg_sw_plus_shared_usd": 39265976,
+              "avg_downtown_usd": 9395282,
+              "downtown_over_sw": 0.2393
+            },
+            "3": {
+              "avg_sw_plus_shared_usd": 39265976,
+              "avg_downtown_usd": 23357314,
+              "downtown_over_sw": 0.5948
+            },
+            "4": {
+              "avg_sw_plus_shared_usd": 41406941,
+              "avg_downtown_usd": 2260543,
+              "downtown_over_sw": 0.0546
+            },
+            "5": {
+              "avg_sw_plus_shared_usd": 32100000,
+              "avg_downtown_usd": 0,
+              "downtown_over_sw": 0.0
+            }
+          }
+        },
+        "unique_projects_per_agent": {
+          "note": "Not drawn. Proposal IDs each agent funded each round.",
+          "by_agent": {
+            "Sustainability Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Financial Expert": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                9,
+                10,
+                12,
+                13,
+                15,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Urban Planner": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (SW Fresno)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15,
+                20,
+                21,
+                22,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "3": [
+                20,
+                35
+              ],
+              "4": [
+                1,
+                9,
+                20,
+                25,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (Chinatown)": {
+              "1": [
+                35
+              ],
+              "2": [
+                20,
+                35
+              ],
+              "3": [
+                1,
+                20,
+                25,
+                35
+              ],
+              "4": [
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            },
+            "Citizen (Downtown Fresno)": {
+              "1": [
+                20,
+                35
+              ],
+              "2": [
+                5,
+                6,
+                8,
+                20,
+                35
+              ],
+              "3": [
+                5,
+                6,
+                17,
+                20,
+                35
+              ],
+              "4": [
+                3,
+                5,
+                20,
+                35
+              ],
+              "5": [
+                20,
+                35
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "turns": {
+    "Star": [
+      {
+        "turn_index": 1,
+        "round": 1,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 2,
+        "round": 1,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 3,
+        "round": 1,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 4,
+        "round": 1,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 5,
+        "round": 1,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 6,
+        "round": 1,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 17,
+        "total_allocated_usd": 80945854,
+        "neighborhood_totals": {
+          "Southwest Fresno": 56071999,
+          "Chinatown": 0,
+          "Downtown Fresno": 7800000,
+          "Shared": 17073855
+        },
+        "gini_score": 0.5482,
+        "sw_fresno_shortfall_usd": -40345854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 14445854,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 7,
+        "round": 2,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 8,
+        "round": 2,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 9,
+        "round": 2,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 10,
+        "round": 2,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 11,
+        "round": 2,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 11,
+        "total_allocated_usd": 96738246,
+        "neighborhood_totals": {
+          "Southwest Fresno": 37619649,
+          "Chinatown": 42044742,
+          "Downtown Fresno": 0,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3791,
+        "sw_fresno_shortfall_usd": -21893504,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 30238246,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 12,
+        "round": 2,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 13,
+        "round": 3,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 14,
+        "round": 3,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 57819649,
+        "neighborhood_totals": {
+          "Southwest Fresno": 42619649,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.6186,
+        "sw_fresno_shortfall_usd": -25019649,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": -8680351,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 15,
+        "round": 3,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 16,
+        "round": 3,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 17,
+        "round": 3,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 18,
+        "round": 3,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 16,
+        "total_allocated_usd": 152420896,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 20148700,
+          "Downtown Fresno": 100172196,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4234,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": 85920896,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 19,
+        "round": 4,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 20,
+        "round": 4,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 21,
+        "round": 4,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 22,
+        "round": 4,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 23,
+        "round": 4,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 24,
+        "round": 4,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 25,
+        "round": 5,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 26,
+        "round": 5,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 27,
+        "round": 5,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 28,
+        "round": 5,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 29,
+        "round": 5,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 30,
+        "round": 5,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 15,
+        "total_allocated_usd": 146284896,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 16480700,
+          "Downtown Fresno": 96504196,
+          "Shared": 16400000
+        },
+        "gini_score": 0.4114,
+        "sw_fresno_shortfall_usd": -500000,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 79784896,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      }
+    ],
+    "Parallel": [
+      {
+        "turn_index": 1,
+        "round": 1,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 2,
+        "round": 1,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 3,
+        "round": 1,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 4,
+        "round": 1,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 5,
+        "round": 1,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 7,
+        "total_allocated_usd": 66558002,
+        "neighborhood_totals": {
+          "Southwest Fresno": 0,
+          "Chinatown": 42044742,
+          "Downtown Fresno": 9313260,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4959,
+        "sw_fresno_shortfall_usd": 17600000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": 58002,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 6,
+        "round": 1,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 7,
+        "round": 2,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 55568000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 15668000,
+          "Downtown Fresno": 7800000,
+          "Shared": 15200000
+        },
+        "gini_score": 0.1249,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -10932000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 8,
+        "round": 2,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 7,
+        "total_allocated_usd": 61719649,
+        "neighborhood_totals": {
+          "Southwest Fresno": 46519649,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.6269,
+        "sw_fresno_shortfall_usd": -28919649,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": -4780351,
+        "budget_ok": true,
+        "fiscal_flags": [],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 9,
+        "round": 2,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 8,
+        "total_allocated_usd": 102430733,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 37959042,
+          "Downtown Fresno": 32371691,
+          "Shared": 15200000
+        },
+        "gini_score": 0.2044,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": 35930733,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 10,
+        "round": 2,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 11,
+        "round": 2,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 12,
+        "round": 2,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 13,
+        "round": 3,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 14,
+        "round": 3,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 15,
+        "round": 3,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 16,
+        "round": 3,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 8,
+        "total_allocated_usd": 73719649,
+        "neighborhood_totals": {
+          "Southwest Fresno": 46519649,
+          "Chinatown": 12000000,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4841,
+        "sw_fresno_shortfall_usd": -28919649,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 7219649,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 17,
+        "round": 3,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 18,
+        "round": 3,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 53463260,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 21363260,
+          "Shared": 15200000
+        },
+        "gini_score": 0.3076,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -13036740,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 19,
+        "round": 4,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 20,
+        "round": 4,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 21,
+        "round": 4,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 22,
+        "round": 4,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 23,
+        "round": 4,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 24,
+        "round": 4,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 25,
+        "round": 5,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 26,
+        "round": 5,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 27,
+        "round": 5,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 28,
+        "round": 5,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 29,
+        "round": 5,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 30,
+        "round": 5,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      }
+    ],
+    "Ring": [
+      {
+        "turn_index": 1,
+        "round": 1,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 2,
+        "round": 1,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 3,
+        "round": 1,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 4,
+        "round": 1,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 5,
+        "round": 1,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 1,
+        "total_allocated_usd": 16900000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 0
+        },
+        "gini_score": 0.75,
+        "sw_fresno_shortfall_usd": 15900000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -49600000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 6,
+        "round": 1,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 7,
+        "round": 2,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 8,
+        "round": 2,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 9,
+        "round": 2,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 10,
+        "round": 2,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 18,
+        "total_allocated_usd": 75095854,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 17073855
+        },
+        "gini_score": 0.6363,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 8595854,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 11,
+        "round": 2,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 12,
+        "round": 2,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 88471691,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 56371691,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4827,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": 21971691,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 13,
+        "round": 3,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 14,
+        "round": 3,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 15,
+        "round": 3,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 34,
+        "total_allocated_usd": 217707792,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 42439742,
+          "Downtown Fresno": 100172196,
+          "Shared": 17073855
+        },
+        "gini_score": 0.3042,
+        "sw_fresno_shortfall_usd": -42295854,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 151207792,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 16,
+        "round": 3,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 17,
+        "round": 3,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 4,
+        "total_allocated_usd": 55600000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 23500000,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.3246,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -10900000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 18,
+        "round": 3,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 72071691,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 39971691,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4219,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": 5571691,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 19,
+        "round": 4,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 20,
+        "round": 4,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 19,
+        "total_allocated_usd": 89702699,
+        "neighborhood_totals": {
+          "Southwest Fresno": 58021999,
+          "Chinatown": 16480700,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.4887,
+        "sw_fresno_shortfall_usd": -40421999,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 23202699,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 21,
+        "round": 4,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 22,
+        "round": 4,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 5,
+        "total_allocated_usd": 70319649,
+        "neighborhood_totals": {
+          "Southwest Fresno": 31619649,
+          "Chinatown": 23500000,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.3668,
+        "sw_fresno_shortfall_usd": -14019649,
+        "sw_mandate_met": true,
+        "budget_overrun_usd": 3819649,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "overfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 23,
+        "round": 4,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 24,
+        "round": 4,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 4,
+        "total_allocated_usd": 45663260,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 13563260,
+          "Shared": 15200000
+        },
+        "gini_score": 0.2865,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -20836740,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 25,
+        "round": 5,
+        "speaker": "Sustainability Expert",
+        "role": "sustainability",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 26,
+        "round": 5,
+        "speaker": "Financial Expert",
+        "role": "financial",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 27,
+        "round": 5,
+        "speaker": "Urban Planner",
+        "role": "urban_planner",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 28,
+        "round": 5,
+        "speaker": "Citizen (SW Fresno)",
+        "role": "citizen_sw_fresno",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 29,
+        "round": 5,
+        "speaker": "Citizen (Chinatown)",
+        "role": "citizen_chinatown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      },
+      {
+        "turn_index": 30,
+        "round": 5,
+        "speaker": "Citizen (Downtown Fresno)",
+        "role": "citizen_downtown",
+        "num_projects_funded": 2,
+        "total_allocated_usd": 32100000,
+        "neighborhood_totals": {
+          "Southwest Fresno": 16900000,
+          "Chinatown": 0,
+          "Downtown Fresno": 0,
+          "Shared": 15200000
+        },
+        "gini_score": 0.5132,
+        "sw_fresno_shortfall_usd": 700000,
+        "sw_mandate_met": false,
+        "budget_overrun_usd": -34400000,
+        "budget_ok": false,
+        "fiscal_flags": [
+          "underfunding",
+          "southwest_underfunding"
+        ],
+        "judge_triggered": false,
+        "judge_text": "",
+        "improver_text": ""
+      }
+    ]
+  }
+}

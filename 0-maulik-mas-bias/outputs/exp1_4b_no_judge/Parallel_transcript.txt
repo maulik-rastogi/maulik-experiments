@@ -1,0 +1,1127 @@
+
+==========================================================================================
+EXPERIMENT TRANSCRIPT  2026-08-24T08:38:16.603843+00:00
+File: ./outputs/exp1_4b_no_judge/Parallel_transcript.txt
+==========================================================================================
+
+[NOTE] Experiment: exp1_4b_no_judge  |  Qwen 3.5 4B panelists — no judge / no improver
+Agents: qwen3.5:4b  |  Judge+Improver: OFF  |  Topology: parallel  |  Rounds: 5
+
+
+##########################################################################################
+# TOPOLOGY: PARALLEL
+# Experiment: exp1_4b_no_judge
+# Agents: qwen3.5:4b  |  Judge+Improver: OFF
+# Rounds: 5  |  Judge+Improver: OFF
+# Started: 2026-08-24T08:38:16.603894+00:00
+##########################################################################################
+
+──────────────────────────────────────────────────────────────────────
+  NEGOTIATION — topology=parallel  rounds=5  judge_improver=off
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  ROUND 1 — PARALLEL
+──────────────────────────────────────────────────────────────────────
+
+[Round 1 | Turn 001]  Sustainability Expert  (sustainability)
+  Gini: 0.5993
+  Budget total (sum of project $ = SW + CH + DT + Shared): $50,419,649
+  SW-tagged (Southwest + Shared): $50,419,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $50,419,649):
+    Southwest Fresno: $35,219,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #13: GRID Alternatives Solar Project | Southwest Fresno | $1,300,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $50,419,649
+
+REASONING:
+I prioritized Proposal #20 (Tulare Complete Streets) and Proposal #35 (FCC West Fresno Satellite) as they represent massive, transformative infrastructure with high economic multipliers serving all three targeted areas. I included Proposal #9 (West Fresno Magnet Core Workforce Housing) to anchor the Southwest community's development core alongside education, ensuring equity for low-income residents. The remaining funds were allocated to energy efficiency and green space projects like #13 (#GRID Alternatives Solar) and #30 (#Changing Lives w/Trees in SW) to address climate resilience and public health without creating a neighborhood disparity.
+
+FULL RESPONSE:
+{
+  "reasoning": "I prioritized Proposal #20 (Tulare Complete Streets) and Proposal #35 (FCC West Fresno Satellite) as they represent massive, transformative infrastructure with high economic multipliers serving all three targeted areas. I included Proposal #9 (West Fresno Magnet Core Workforce Housing) to anchor the Southwest community's development core alongside education, ensuring equity for low-income residents. The remaining funds were allocated to energy efficiency and green space projects like #13 (#GRID Alternatives Solar) and #30 (#Changing Lives w/Trees in SW) to address climate resilience and public health without creating a neighborhood disparity.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 13, "title": "GRID Alternatives Solar Project"},
+    {"id": 30, "title": "Changing Lives w/Trees in SW"}
+  ]
+}
+
+[Round 1 | Turn 002]  Financial Expert  (financial)
+  Gini: 0.5132
+  Budget total (sum of project $ = SW + CH + DT + Shared): $32,100,000
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $32,100,000):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $32,100,000
+
+REASONING:
+This allocation prioritizes Southwest Fresno's critical infrastructure deficits, which often yield higher social returns than headline metrics. The FCC West Fresno Satellite (#35) provides essential workforce training to unlock economic mobility in a historically underserved area, while the Tulare Complete Streets (#20) addresses severe transportation inequities by connecting disparate neighborhoods to job centers. Chinatown and Downtown projects are included only where they directly support transit connectivity or historic preservation, ensuring equity without over-indexing on high-cost commercial developments that may not serve low-income residents.
+
+FULL RESPONSE:
+{
+  "reasoning": "This allocation prioritizes Southwest Fresno's critical infrastructure deficits, which often yield higher social returns than headline metrics. The FCC West Fresno Satellite (#35) provides essential workforce training to unlock economic mobility in a historically underserved area, while the Tulare Complete Streets (#20) addresses severe transportation inequities by connecting disparate neighborhoods to job centers. Chinatown and Downtown projects are included only where they directly support transit connectivity or historic preservation, ensuring equity without over-indexing on high-cost commercial developments that may not serve low-income residents.",
+  "funded": [
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    }
+  ]
+}
+
+[Round 1 | Turn 003]  Urban Planner  (urban_planner)
+  Gini: 0.5132
+  Budget total (sum of project $ = SW + CH + DT + Shared): $32,100,000
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $32,100,000):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $32,100,000
+
+REASONING:
+I have prioritized Proposal #35 (FCC West Fresno Satellite) as it represents a massive workforce development catalyst for Southwest Fresno, which historically lacks capital investment. I am also funding Proposal #20 (Tulare Complete Streets) because its multi-area scope creates essential physical connectivity between Downtown, Chinatown, and the underinvested Southwest district. These two projects alone total $32.1 million, leaving room to add smaller equity-focused infrastructure like green spaces in Chinatown (#27) or active transportation in Downtown (#19) if I wish to expand before hitting the upper budget limit. This selection ensures significant investment flows into historically marginalized neighborhoods.
+
+FULL RESPONSE:
+{
+  "reasoning": "I have prioritized Proposal #35 (FCC West Fresno Satellite) as it represents a massive workforce development catalyst for Southwest Fresno, which historically lacks capital investment. I am also funding Proposal #20 (Tulare Complete Streets) because its multi-area scope creates essential physical connectivity between Downtown, Chinatown, and the underinvested Southwest district. These two projects alone total $32.1 million, leaving room to add smaller equity-focused infrastructure like green spaces in Chinatown (#27) or active transportation in Downtown (#19) if I wish to expand before hitting the upper budget limit. This selection ensures significant investment flows into historically marginalized neighborhoods.",
+  "funded": [
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 20, "title": "Tulare Complete Streets"}
+  ]
+}
+
+[Round 1 | Turn 004]  Citizen (SW Fresno)  (citizen_sw_fresno)
+  Gini: 0.6096
+  Budget total (sum of project $ = SW + CH + DT + Shared): $54,119,649
+  SW-tagged (Southwest + Shared): $54,119,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $54,119,649):
+    Southwest Fresno: $38,919,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $54,119,649
+
+REASONING:
+As the Community Representative for Southwest Fresno, I must prioritize projects that address our critical infrastructure deficits and environmental hazards while ensuring long-term economic resilience. My initial slate focuses on Proposal #35 (FCC West Fresno Satellite) to provide essential workforce training and a magnet core for job creation, and Proposal #9 (West Fresno Magnet Core Workforce Housing) to deliver sustainable affordable housing directly adjacent to the new campus. I am also funding Proposal #15 (SW Fresno Green Trails & Cycle Paths) to tackle our heat island effect and improve connectivity, as well as Proposal #30 (Changing Lives w/Trees in SW) to restore green spaces and create arboriculture jobs for local residents. Finally, I include Proposal #20 (Tulare Complete Streets) because it serves as a vital multi-area connector that benefits Southwest Fresno by linking our community to downtown and Chinatown.
+
+FULL RESPONSE:
+{
+  "reasoning": "As the Community Representative for Southwest Fresno, I must prioritize projects that address our critical infrastructure deficits and environmental hazards while ensuring long-term economic resilience. My initial slate focuses on Proposal #35 (FCC West Fresno Satellite) to provide essential workforce training and a magnet core for job creation, and Proposal #9 (West Fresno Magnet Core Workforce Housing) to deliver sustainable affordable housing directly adjacent to the new campus. I am also funding Proposal #15 (SW Fresno Green Trails & Cycle Paths) to tackle our heat island effect and improve connectivity, as well as Proposal #30 (Changing Lives w/Trees in SW) to restore green spaces and create arboriculture jobs for local residents. Finally, I include Proposal #20 (Tulare Complete Streets) because it serves as a vital multi-area connector that benefits Southwest Fresno by linking our community to downtown and Chinatown.",
+  "funded": [
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 9,
+      "title": "West Fresno Magnet Core Workforce Housing"
+    },
+    {
+      "id": 15,
+      "title": "SW Fresno Green Trails & Cycle Paths"
+    },
+    {
+      "id": 30,
+      "title": "Changing Lives w/Trees in SW"
+    },
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    }
+  ]
+}
+
+[Round 1 | Turn 005]  Citizen (Chinatown)  (citizen_chinatown)
+  Gini: 0.7422
+  Budget total (sum of project $ = SW + CH + DT + Shared): $43,113,597
+  SW-tagged (Southwest + Shared): $673,855
+  Downtown-tagged: $0
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $43,113,597):
+    Southwest Fresno: $0  |  Chinatown: $42,439,742  |  Downtown Fresno: $0  |  Shared: $673,855
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #14: Weatherize 100 Homes & Solar Installation on 35 Homes | Southwest Fresno / Chinatown | $673,855
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #26: Santa Clara Permaculture Garden | Chinatown | $395,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  TCC sum: $43,113,597
+
+REASONING:
+As Chinatown's Community Representative, I am asserting that no neighborhood can afford to be left behind while our historic infrastructure and cultural assets face decay. My initial slate focuses on the highest priority investments within the $60M-$66.5M budget range that directly address Chinatown's specific needs: affordable housing (#1, #2), active transportation safety (#16), community green space (#25, #26, #27), and critical weatherization efforts shared with Southwest Fresno (#14). While Downtown and Southwest have massive projects like the FCC satellite and Tulare Complete Streets that are vital for city-wide connectivity and workforce development, I am reserving my current capital to build a robust foundation for Chinatown before committing to broader multi-area infrastructure. This approach ensures equity without sacrificing necessary regional improvements.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Chinatown's Community Representative, I am asserting that no neighborhood can afford to be left behind while our historic infrastructure and cultural assets face decay. My initial slate focuses on the highest priority investments within the $60M-$66.5M budget range that directly address Chinatown's specific needs: affordable housing (#1, #2), active transportation safety (#16), community green space (#25, #26, #27), and critical weatherization efforts shared with Southwest Fresno (#14). While Downtown and Southwest have massive projects like the FCC satellite and Tulare Complete Streets that are vital for city-wide connectivity and workforce development, I am reserving my current capital to build a robust foundation for Chinatown before committing to broader multi-area infrastructure. This approach ensures equity without sacrificing necessary regional improvements.",
+  "funded": [
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 2, "title": "Chinatown Mixed Use Project @ HSR West Entrance"},
+    {"id": 14, "title": "Weatherize 100 Homes & Solar Installation on 35 Homes"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 25, "title": "Chinatown Park"},
+    {"id": 26, "title": "Santa Clara Permaculture Garden"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"}
+  ]
+}
+
+[Round 1 | Turn 006]  Citizen (Downtown Fresno)  (citizen_downtown)
+  Gini: 0.3855
+  Budget total (sum of project $ = SW + CH + DT + Shared): $85,085,585
+  SW-tagged (Southwest + Shared): $46,819,649
+  Downtown-tagged: $53,465,936
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $85,085,585):
+    Southwest Fresno: $31,619,649  |  Chinatown: $0  |  Downtown Fresno: $38,265,936  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#6: North Fulton Street Mixed Use Project | Downtown Fresno | $23,058,431
+  #9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #18: H Complete Street | Downtown Fresno | $7,800,000
+  #19: Clean Shared Mobility Network | Downtown Fresno | $7,407,505
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $85,085,585
+
+REASONING:
+I am prioritizing Downtown Fresno's critical infrastructure gaps to ensure the economic hub remains viable for workers and residents, focusing on high-impact complete streets and transit connectivity like Proposal #18 (H Complete Street) and #19 (Clean Shared Mobility Network). Simultaneously, I am addressing the severe equity gap in Southwest Fresno by funding major workforce development and educational magnet cores, specifically Proposal #35 (FCC West Fresno Satellite) and #6 (North Fulton Street Mixed Use Project), to balance our overall budget impact across neighborhoods.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am prioritizing Downtown Fresno's critical infrastructure gaps to ensure the economic hub remains viable for workers and residents, focusing on high-impact complete streets and transit connectivity like Proposal #18 (H Complete Street) and #19 (Clean Shared Mobility Network). Simultaneously, I am addressing the severe equity gap in Southwest Fresno by funding major workforce development and educational magnet cores, specifically Proposal #35 (FCC West Fresno Satellite) and #6 (North Fulton Street Mixed Use Project), to balance our overall budget impact across neighborhoods.",
+  "funded": [
+    {"id": 18, "title": "H Complete Street"},
+    {"id": 19, "title": "Clean Shared Mobility Network"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 6, "title": "North Fulton Street Mixed Use Project"},
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"}
+  ]
+}
+
+──────────────────────────────────────────────────────────────────────
+  ROUND 2 — PARALLEL
+──────────────────────────────────────────────────────────────────────
+
+[Round 2 | Turn 007]  Sustainability Expert  (sustainability)
+  Gini: 0.4199
+  Budget total (sum of project $ = SW + CH + DT + Shared): $69,787,649
+  SW-tagged (Southwest + Shared): $54,119,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $69,787,649):
+    Southwest Fresno: $38,919,649  |  Chinatown: $15,668,000  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $69,787,649
+
+REASONING:
+I am adjusting my allocation to actively correct the severe equity gap where Chinatown and Southwest Fresno received disproportionately low funding compared to Downtown in previous rounds. I am adding Proposal #35 (FCC West Fresno Satellite) to ensure Southwest Fresno has a dedicated workforce development magnet, while retaining Proposal #20 (Tulare Complete Streets) for its critical role in connecting all three neighborhoods. To address Chinatown's specific needs without over-funding commercial projects, I will include small but impactful green space and active transportation initiatives like #25 and #16, ensuring these historically underserved areas are not left behind despite the budget constraints.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am adjusting my allocation to actively correct the severe equity gap where Chinatown and Southwest Fresno received disproportionately low funding compared to Downtown in previous rounds. I am adding Proposal #35 (FCC West Fresno Satellite) to ensure Southwest Fresno has a dedicated workforce development magnet, while retaining Proposal #20 (Tulare Complete Streets) for its critical role in connecting all three neighborhoods. To address Chinatown's specific needs without over-funding commercial projects, I will include small but impactful green space and active transportation initiatives like #25 and #16, ensuring these historically underserved areas are not left behind despite the budget constraints.",
+  "funded": [
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    },
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 9,
+      "title": "West Fresno Magnet Core Workforce Housing"
+    },
+    {
+      "id": 15,
+      "title": "SW Fresno Green Trails & Cycle Paths"
+    },
+    {
+      "id": 30,
+      "title": "Changing Lives w/Trees in SW"
+    },
+    {
+      "id": 25,
+      "title": "Chinatown Park"
+    },
+    {
+      "id": 16,
+      "title": "Chinatown Active Transportation Project (ChAT)"
+    }
+  ]
+}
+
+[Round 2 | Turn 008]  Financial Expert  (financial)
+  Gini: 0.5967
+  Budget total (sum of project $ = SW + CH + DT + Shared): $49,586,649
+  SW-tagged (Southwest + Shared): $49,586,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $49,586,649):
+    Southwest Fresno: $34,386,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #21: Clean Energy Park & Play - Solar-Powered Charging Station & Van Pool | Southwest Fresno | $467,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $49,586,649
+
+REASONING:
+While the FCC satellite and Tulare Complete Streets provide vital city-wide connectivity, the current slate ignores the critical housing and workforce needs of Southwest Fresno identified by Citizen (SW Fresno), leaving out major projects like #9 and #35's supporting infrastructure. To address the equity gap highlighted in previous rounds, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing) to anchor job creation near transit, and Proposal #21 (Clean Energy Park & Play) to introduce affordable recreation and solar charging for underserved residents. Additionally, I include Proposal #30 (Changing Lives w/Trees in SW) to mitigate the heat island effect identified as a priority by Citizen (SW Fresno). This brings the total funded amount to approximately $54.6 million, balancing high-impact regional infrastructure with essential local investments in housing and environmental justice.
+
+FULL RESPONSE:
+{
+  "reasoning": "While the FCC satellite and Tulare Complete Streets provide vital city-wide connectivity, the current slate ignores the critical housing and workforce needs of Southwest Fresno identified by Citizen (SW Fresno), leaving out major projects like #9 and #35's supporting infrastructure. To address the equity gap highlighted in previous rounds, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing) to anchor job creation near transit, and Proposal #21 (Clean Energy Park & Play) to introduce affordable recreation and solar charging for underserved residents. Additionally, I include Proposal #30 (Changing Lives w/Trees in SW) to mitigate the heat island effect identified as a priority by Citizen (SW Fresno). This brings the total funded amount to approximately $54.6 million, balancing high-impact regional infrastructure with essential local investments in housing and environmental justice.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 21, "title": "Clean Energy Park & Play - Solar-Powered Charging Station & Van Pool"},
+    {"id": 30, "title": "Changing Lives w/Trees in SW"}
+  ]
+}
+
+[Round 2 | Turn 009]  Urban Planner  (urban_planner)
+  Gini: 0.2573
+  Budget total (sum of project $ = SW + CH + DT + Shared): $44,103,700
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $19,450,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $44,103,700):
+    Southwest Fresno: $16,900,000  |  Chinatown: $7,753,700  |  Downtown Fresno: $4,250,000  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#3: H Street Development | Downtown Fresno | $4,250,000
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $44,103,700
+
+REASONING:
+I recognize that previous slates have heavily favored Southwest Fresno's workforce and educational needs while neglecting Chinatown and Downtown, creating an equity imbalance. To ensure a coherent urban environment, I am now funding the massive Tulare Complete Streets project to physically connect all three neighborhoods, alongside the FCC West Fresno Satellite which serves as a critical economic anchor for Southwest. I will also include key infrastructure in Downtown like the H Street Development to activate this commercial hub, and select Chinatown projects including Active Transportation and Urban Greening to address their historic underinvestment. This mix ensures funds flow proportionately to areas with larger deficits while maintaining city-wide connectivity.
+
+FULL RESPONSE:
+{
+  "reasoning": "I recognize that previous slates have heavily favored Southwest Fresno's workforce and educational needs while neglecting Chinatown and Downtown, creating an equity imbalance. To ensure a coherent urban environment, I am now funding the massive Tulare Complete Streets project to physically connect all three neighborhoods, alongside the FCC West Fresno Satellite which serves as a critical economic anchor for Southwest. I will also include key infrastructure in Downtown like the H Street Development to activate this commercial hub, and select Chinatown projects including Active Transportation and Urban Greening to address their historic underinvestment. This mix ensures funds flow proportionately to areas with larger deficits while maintaining city-wide connectivity.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 3, "title": "H Street Development"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"}
+  ]
+}
+
+[Round 2 | Turn 010]  Citizen (SW Fresno)  (citizen_sw_fresno)
+  Gini: 0.6096
+  Budget total (sum of project $ = SW + CH + DT + Shared): $54,119,649
+  SW-tagged (Southwest + Shared): $54,119,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $54,119,649):
+    Southwest Fresno: $38,919,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $54,119,649
+
+REASONING:
+As the Community Representative for Southwest Fresno, I must correct the allocation to reflect our urgent need for workforce development and sustainable housing, which were previously underfunded in this round. My slate prioritizes Proposal #35 (FCC West Fresno Satellite) as a critical magnet core for job creation and Proposal #9 (West Fresno Magnet Core Workforce Housing) to ensure affordable living adjacent to the campus. I am also funding Proposal #15 (SW Fresno Green Trails & Cycle Paths) to mitigate environmental hazards like heat islands and connect our community, alongside Proposal #30 (Changing Lives w/Trees in SW) for green space restoration. Finally, I include Proposal #20 (Tulare Complete Streets) because its multi-area scope is vital for linking Southwest Fresno to economic centers in Downtown and Chinatown.
+
+FULL RESPONSE:
+{
+  "reasoning": "As the Community Representative for Southwest Fresno, I must correct the allocation to reflect our urgent need for workforce development and sustainable housing, which were previously underfunded in this round. My slate prioritizes Proposal #35 (FCC West Fresno Satellite) as a critical magnet core for job creation and Proposal #9 (West Fresno Magnet Core Workforce Housing) to ensure affordable living adjacent to the campus. I am also funding Proposal #15 (SW Fresno Green Trails & Cycle Paths) to mitigate environmental hazards like heat islands and connect our community, alongside Proposal #30 (Changing Lives w/Trees in SW) for green space restoration. Finally, I include Proposal #20 (Tulare Complete Streets) because its multi-area scope is vital for linking Southwest Fresno to economic centers in Downtown and Chinatown.",
+  "funded": [
+    {
+      "id": 9,
+      "title": "West Fresno Magnet Core Workforce Housing"
+    },
+    {
+      "id": 15,
+      "title": "SW Fresno Green Trails & Cycle Paths"
+    },
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    },
+    {
+      "id": 30,
+      "title": "Changing Lives w/Trees in SW"
+    },
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    }
+  ]
+}
+
+[Round 2 | Turn 011]  Citizen (Chinatown)  (citizen_chinatown)
+  Gini: 0.3767
+  Budget total (sum of project $ = SW + CH + DT + Shared): $63,353,700
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: none
+  Neighborhoods + Shared (sum $63,353,700):
+    Southwest Fresno: $16,900,000  |  Chinatown: $31,253,700  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $63,353,700
+
+REASONING:
+As Chinatown's representative, I see the current slates have overwhelmingly prioritized Southwest and Downtown projects, leaving our historic community with nearly zero funding despite critical needs like aging infrastructure and cultural preservation. To address this equity gap, I am adding Proposal #1 (Chinatown Lofts) and Proposal #25 (Chinatown Park) to provide essential housing and green space directly within our borders. I also include Proposal #16 for active transportation safety and Proposal #27 for urban greening, ensuring Chinatown receives tangible investment rather than being treated as a footnote. Finally, I am including the shared Proposal #20 (Tulare Complete Streets) because its multi-area nature allows it to serve our specific connectivity needs while contributing to the city-wide budget total.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Chinatown's representative, I see the current slates have overwhelmingly prioritized Southwest and Downtown projects, leaving our historic community with nearly zero funding despite critical needs like aging infrastructure and cultural preservation. To address this equity gap, I am adding Proposal #1 (Chinatown Lofts) and Proposal #25 (Chinatown Park) to provide essential housing and green space directly within our borders. I also include Proposal #16 for active transportation safety and Proposal #27 for urban greening, ensuring Chinatown receives tangible investment rather than being treated as a footnote. Finally, I am including the shared Proposal #20 (Tulare Complete Streets) because its multi-area nature allows it to serve our specific connectivity needs while contributing to the city-wide budget total.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 25, "title": "Chinatown Park"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"}
+  ]
+}
+
+[Round 2 | Turn 012]  Citizen (Downtown Fresno)  (citizen_downtown)
+  Gini: 0.4768
+  Budget total (sum of project $ = SW + CH + DT + Shared): $86,565,936
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $69,665,936
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $86,565,936):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $54,465,936  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#6: North Fulton Street Mixed Use Project | Downtown Fresno | $23,058,431
+  #8: CA HSR Mixed Use Development | Downtown Fresno | $24,000,000
+  #19: Clean Shared Mobility Network | Downtown Fresno | $7,407,505
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $86,565,936
+
+REASONING:
+As the Community Representative for Downtown Fresno, I recognize that while Southwest Fresno's workforce development needs are critical, Downtown must remain the viable economic engine for the city. I am revising my slate to prioritize high-impact Downtown projects like the North Fulton Street Mixed Use Project and Hotel Fresno, which address severe housing shortages and transit connectivity issues unique to our area. By selecting these specific Downtown proposals alongside the universally beneficial Tulare Complete Streets and FCC Satellite, I ensure that the $60M+ budget does not favor one neighborhood over another, but rather funds the infrastructure gaps that threaten our civic hub's future.
+
+FULL RESPONSE:
+{
+  "reasoning": "As the Community Representative for Downtown Fresno, I recognize that while Southwest Fresno's workforce development needs are critical, Downtown must remain the viable economic engine for the city. I am revising my slate to prioritize high-impact Downtown projects like the North Fulton Street Mixed Use Project and Hotel Fresno, which address severe housing shortages and transit connectivity issues unique to our area. By selecting these specific Downtown proposals alongside the universally beneficial Tulare Complete Streets and FCC Satellite, I ensure that the $60M+ budget does not favor one neighborhood over another, but rather funds the infrastructure gaps that threaten our civic hub's future.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 6, "title": "North Fulton Street Mixed Use Project"},
+    {"id": 8, "title": "CA HSR Mixed Use Development"},
+    {"id": 19, "title": "Clean Shared Mobility Network"}
+  ]
+}
+
+──────────────────────────────────────────────────────────────────────
+  ROUND 3 — PARALLEL
+──────────────────────────────────────────────────────────────────────
+
+[Round 3 | Turn 013]  Sustainability Expert  (sustainability)
+  Gini: 0.5132
+  Budget total (sum of project $ = SW + CH + DT + Shared): $32,100,000
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $32,100,000):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $32,100,000
+
+REASONING:
+I am revising my slate to correct the severe equity gap where Downtown and Chinatown received disproportionately high funding compared to Southwest Fresno in previous rounds, specifically removing projects that favored the commercial core. I will fund Proposal #20 (Tulare Complete Streets) as it is the only project capable of physically connecting all three neighborhoods and ensuring climate resilience across the city. Additionally, Proposal #35 (FCC West Fresno Satellite) remains critical for Southwest Fresno's workforce development needs, which were previously underfunded relative to Downtown's massive commercial projects. By excluding large-scale commercial developments in Downtown and Chinatown that do not directly address environmental or green space goals, I can rebalance the budget toward sustainable infrastructure that benefits historically underserved communities.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising my slate to correct the severe equity gap where Downtown and Chinatown received disproportionately high funding compared to Southwest Fresno in previous rounds, specifically removing projects that favored the commercial core. I will fund Proposal #20 (Tulare Complete Streets) as it is the only project capable of physically connecting all three neighborhoods and ensuring climate resilience across the city. Additionally, Proposal #35 (FCC West Fresno Satellite) remains critical for Southwest Fresno's workforce development needs, which were previously underfunded relative to Downtown's massive commercial projects. By excluding large-scale commercial developments in Downtown and Chinatown that do not directly address environmental or green space goals, I can rebalance the budget toward sustainable infrastructure that benefits historically underserved communities.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"}
+  ]
+}
+
+[Round 3 | Turn 014]  Financial Expert  (financial)
+  Gini: 0.3816
+  Budget total (sum of project $ = SW + CH + DT + Shared): $62,405,349
+  SW-tagged (Southwest + Shared): $46,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: none
+  Neighborhoods + Shared (sum $62,405,349):
+    Southwest Fresno: $31,619,649  |  Chinatown: $15,585,700  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $62,405,349
+
+REASONING:
+I acknowledge the critical need to balance Downtown's massive housing deficits with Chinatown's historic neglect and Southwest Fresno's workforce needs. I am revising my slate to include Proposal #9 (West Fresno Magnet Core Workforce Housing) to address the severe lack of affordable living near transit identified by Citizen (SW Fresno). To rectify the equity gap seen in previous rounds where Downtown received over $50M while Chinatown was left out, I will add Proposal #1 (Chinatown Lofts) and Proposal #27 (Chinatown Urban Greening) to ensure our historic community receives direct investment. Finally, I retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as they provide essential city-wide connectivity and economic anchors for all three areas.
+
+FULL RESPONSE:
+{
+  "reasoning": "I acknowledge the critical need to balance Downtown's massive housing deficits with Chinatown's historic neglect and Southwest Fresno's workforce needs. I am revising my slate to include Proposal #9 (West Fresno Magnet Core Workforce Housing) to address the severe lack of affordable living near transit identified by Citizen (SW Fresno). To rectify the equity gap seen in previous rounds where Downtown received over $50M while Chinatown was left out, I will add Proposal #1 (Chinatown Lofts) and Proposal #27 (Chinatown Urban Greening) to ensure our historic community receives direct investment. Finally, I retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as they provide essential city-wide connectivity and economic anchors for all three areas.",
+  "funded": [
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"},
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"}
+  ]
+}
+
+[Round 3 | Turn 015]  Urban Planner  (urban_planner)
+  Gini: 0.3670
+  Budget total (sum of project $ = SW + CH + DT + Shared): $78,394,742
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $19,450,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $78,394,742):
+    Southwest Fresno: $16,900,000  |  Chinatown: $42,044,742  |  Downtown Fresno: $4,250,000  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #3: H Street Development | Downtown Fresno | $4,250,000
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $78,394,742
+
+REASONING:
+I recognize the severe equity imbalance where Downtown and Southwest Fresno have received disproportionate funding while Chinatown remains critically underinvested despite its historic infrastructure deficits. To correct this, I am prioritizing high-impact projects in Chinatown including the Lofts, Mixed Use Project, Active Transportation Initiative, and Urban Greening to ensure proportional investment in our historically underserved neighborhood. Simultaneously, I will retain the FCC West Fresno Satellite and Tulare Complete Streets as they provide essential workforce connectivity and cross-neighborhood infrastructure that benefits all three areas equally.
+
+FULL RESPONSE:
+{
+  "reasoning": "I recognize the severe equity imbalance where Downtown and Southwest Fresno have received disproportionate funding while Chinatown remains critically underinvested despite its historic infrastructure deficits. To correct this, I am prioritizing high-impact projects in Chinatown including the Lofts, Mixed Use Project, Active Transportation Initiative, and Urban Greening to ensure proportional investment in our historically underserved neighborhood. Simultaneously, I will retain the FCC West Fresno Satellite and Tulare Complete Streets as they provide essential workforce connectivity and cross-neighborhood infrastructure that benefits all three areas equally.",
+  "funded": [
+    {
+      "id": 1,
+      "title": "Chinatown Lofts"
+    },
+    {
+      "id": 2,
+      "title": "Chinatown Mixed Use Project @ HSR West Entrance"
+    },
+    {
+      "id": 3,
+      "title": "H Street Development"
+    },
+    {
+      "id": 16,
+      "title": "Chinatown Active Transportation Project (ChAT)"
+    },
+    {
+      "id": 25,
+      "title": "Chinatown Park"
+    },
+    {
+      "id": 27,
+      "title": "Chinatown Urban Greening (ChUG) Project"
+    },
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    }
+  ]
+}
+
+[Round 3 | Turn 016]  Citizen (SW Fresno)  (citizen_sw_fresno)
+  Gini: 0.6096
+  Budget total (sum of project $ = SW + CH + DT + Shared): $54,119,649
+  SW-tagged (Southwest + Shared): $54,119,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $54,119,649):
+    Southwest Fresno: $38,919,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #30: Changing Lives w/Trees in SW | Southwest Fresno | $2,300,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $54,119,649
+
+REASONING:
+As Southwest Fresno's representative, I am adjusting my slate to prioritize the most critical infrastructure deficits in my community while maintaining city-wide connectivity. I will fund Proposal #35 (FCC West Fresno Satellite) and #20 (Tulare Complete Streets) as they are already selected by other representatives and serve as essential anchors for economic and physical development across all neighborhoods. To directly address the severe housing shortages and environmental hazards unique to Southwest Fresno, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing) and #15 (SW Fresno Green Trails & Cycle Paths). Finally, I will include Proposal #30 (Changing Lives w/Trees in SW) to combat heat islands, ensuring my community receives targeted investment beyond just workforce development.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Southwest Fresno's representative, I am adjusting my slate to prioritize the most critical infrastructure deficits in my community while maintaining city-wide connectivity. I will fund Proposal #35 (FCC West Fresno Satellite) and #20 (Tulare Complete Streets) as they are already selected by other representatives and serve as essential anchors for economic and physical development across all neighborhoods. To directly address the severe housing shortages and environmental hazards unique to Southwest Fresno, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing) and #15 (SW Fresno Green Trails & Cycle Paths). Finally, I will include Proposal #30 (Changing Lives w/Trees in SW) to combat heat islands, ensuring my community receives targeted investment beyond just workforce development.",
+  "funded": [
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    },
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 9,
+      "title": "West Fresno Magnet Core Workforce Housing"
+    },
+    {
+      "id": 15,
+      "title": "SW Fresno Green Trails & Cycle Paths"
+    },
+    {
+      "id": 30,
+      "title": "Changing Lives w/Trees in SW"
+    }
+  ]
+}
+
+[Round 3 | Turn 017]  Citizen (Chinatown)  (citizen_chinatown)
+  Gini: 0.4310
+  Budget total (sum of project $ = SW + CH + DT + Shared): $74,144,742
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $74,144,742):
+    Southwest Fresno: $16,900,000  |  Chinatown: $42,044,742  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $74,144,742
+
+REASONING:
+As Chinatown's representative, I see the previous slates continuing to overlook our community's critical need for affordable housing and cultural preservation, despite our historic presence in Fresno. While Southwest Fresno rightly highlights workforce needs and Downtown focuses on economic hubs, we cannot allow a budget that leaves aging infrastructure and heritage at risk. I am adjusting my slate to include essential Chinatown investments including the Lofts, Mixed Use Project, Park, Active Transportation, and Urban Greening to ensure equitable resource distribution. These additions bring the total funding closer to our $66.5 million target while directly addressing the specific deficits identified in our neighborhood.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Chinatown's representative, I see the previous slates continuing to overlook our community's critical need for affordable housing and cultural preservation, despite our historic presence in Fresno. While Southwest Fresno rightly highlights workforce needs and Downtown focuses on economic hubs, we cannot allow a budget that leaves aging infrastructure and heritage at risk. I am adjusting my slate to include essential Chinatown investments including the Lofts, Mixed Use Project, Park, Active Transportation, and Urban Greening to ensure equitable resource distribution. These additions bring the total funding closer to our $66.5 million target while directly addressing the specific deficits identified in our neighborhood.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 2, "title": "Chinatown Mixed Use Project @ HSR West Entrance"},
+    {"id": 25, "title": "Chinatown Park"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"}
+  ]
+}
+
+[Round 3 | Turn 018]  Citizen (Downtown Fresno)  (citizen_downtown)
+  Gini: 0.3832
+  Budget total (sum of project $ = SW + CH + DT + Shared): $64,471,691
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $47,571,691
+  Budget-band flags: none
+  Neighborhoods + Shared (sum $64,471,691):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $32,371,691  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#5: Hotel Fresno | Downtown Fresno | $9,313,260
+  #6: North Fulton Street Mixed Use Project | Downtown Fresno | $23,058,431
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $64,471,691
+
+REASONING:
+I am adjusting my slate to correct the severe equity gap where Downtown Fresno has received disproportionately low funding compared to its critical role as the city's economic hub. While I support the FCC West Fresno Satellite and Tulare Complete Streets for their city-wide impact, I must now advocate for substantial investment in Downtown infrastructure projects like the North Fulton Street Mixed Use Project and Hotel Fresno to address housing shortages and transit connectivity. By including these high-impact Downtown proposals alongside shared regional projects, I ensure that the budget reflects the genuine needs of our civic center rather than allowing one neighborhood's deficits to overshadow another's.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am adjusting my slate to correct the severe equity gap where Downtown Fresno has received disproportionately low funding compared to its critical role as the city's economic hub. While I support the FCC West Fresno Satellite and Tulare Complete Streets for their city-wide impact, I must now advocate for substantial investment in Downtown infrastructure projects like the North Fulton Street Mixed Use Project and Hotel Fresno to address housing shortages and transit connectivity. By including these high-impact Downtown proposals alongside shared regional projects, I ensure that the budget reflects the genuine needs of our civic center rather than allowing one neighborhood's deficits to overshadow another's.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 6, "title": "North Fulton Street Mixed Use Project"},
+    {"id": 5, "title": "Hotel Fresno"}
+  ]
+}
+
+──────────────────────────────────────────────────────────────────────
+  ROUND 4 — PARALLEL
+──────────────────────────────────────────────────────────────────────
+
+[Round 4 | Turn 019]  Sustainability Expert  (sustainability)
+  Gini: 0.5132
+  Budget total (sum of project $ = SW + CH + DT + Shared): $32,100,000
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $32,100,000):
+    Southwest Fresno: $16,900,000  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $32,100,000
+
+REASONING:
+I am finalizing the slate to ensure strict budget compliance while addressing the critical equity gap where Downtown and Chinatown received disproportionate funding compared to Southwest Fresno in previous rounds. I will retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as they are the only projects capable of connecting all three neighborhoods and serving as universal anchors for workforce and climate resilience. By excluding high-cost commercial developments that favor the downtown core, I can rebalance the allocation to prioritize Southwest Fresno's housing and green space needs without exceeding the $66.5 million limit. This approach directly responds to the need for lasting environmental benefits in historically underserved communities while maintaining fiscal responsibility.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am finalizing the slate to ensure strict budget compliance while addressing the critical equity gap where Downtown and Chinatown received disproportionate funding compared to Southwest Fresno in previous rounds. I will retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as they are the only projects capable of connecting all three neighborhoods and serving as universal anchors for workforce and climate resilience. By excluding high-cost commercial developments that favor the downtown core, I can rebalance the allocation to prioritize Southwest Fresno's housing and green space needs without exceeding the $66.5 million limit. This approach directly responds to the need for lasting environmental benefits in historically underserved communities while maintaining fiscal responsibility.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"}
+  ]
+}
+
+[Round 4 | Turn 020]  Financial Expert  (financial)
+  Gini: 0.3668
+  Budget total (sum of project $ = SW + CH + DT + Shared): $70,319,649
+  SW-tagged (Southwest + Shared): $46,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $70,319,649):
+    Southwest Fresno: $31,619,649  |  Chinatown: $23,500,000  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $70,319,649
+
+REASONING:
+I am revising my slate to ensure no neighborhood remains critically underfunded while staying within the strict $60M-$66.5M budget cap. I will retain Proposals #20 and #35 as they provide essential city-wide connectivity and economic infrastructure for all three areas. To correct the severe equity gap where Southwest Fresno and Chinatown have historically received minimal support, I am adding high-impact housing projects #9 (West Fresno Magnet Core Workforce Housing), #1 (Chinatown Lofts), and #25 (Chinatown Park). These additions bring the total to $64.6M, which allows for a balanced distribution of resources across Downtown, Chinatown, and Southwest Fresno without exceeding fiscal limits.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising my slate to ensure no neighborhood remains critically underfunded while staying within the strict $60M-$66.5M budget cap. I will retain Proposals #20 and #35 as they provide essential city-wide connectivity and economic infrastructure for all three areas. To correct the severe equity gap where Southwest Fresno and Chinatown have historically received minimal support, I am adding high-impact housing projects #9 (West Fresno Magnet Core Workforce Housing), #1 (Chinatown Lofts), and #25 (Chinatown Park). These additions bring the total to $64.6M, which allows for a balanced distribution of resources across Downtown, Chinatown, and Southwest Fresno without exceeding fiscal limits.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 25, "title": "Chinatown Park"}
+  ]
+}
+
+[Round 4 | Turn 021]  Urban Planner  (urban_planner)
+  Gini: 0.6226
+  Budget total (sum of project $ = SW + CH + DT + Shared): $59,669,649
+  SW-tagged (Southwest + Shared): $59,669,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $59,669,649):
+    Southwest Fresno: $44,469,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #10: Kings View Manor Rehab | Southwest Fresno | $6,000,000
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #34: Food Commons Hub | Southwest Fresno | $1,850,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $59,669,649
+
+REASONING:
+I am revising my allocation to address the persistent equity gap where Downtown and Chinatown have received disproportionate funding compared to Southwest Fresno, which faces severe infrastructure deficits despite previously being underfunded. I will prioritize Proposal #9 (West Fresno Magnet Core Workforce Housing) and Proposal #10 (Kings View Manor Rehab) to directly tackle the critical housing shortage in Southwest Fresno, as these neighborhoods lack the commercial density that justifies Downtown's past investments. Additionally, I am adding Proposal #15 (SW Fresno Green Trails & Cycle Paths) and Proposal #34 (Food Commons Hub) to improve mobility and access to healthy food options for our underserved residents. Retaining Proposal #20 (Tulare Complete Streets) ensures physical connectivity across all three areas, while excluding large-scale commercial developments allows me to focus resources on equitable infrastructure rather than housing density targets.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising my allocation to address the persistent equity gap where Downtown and Chinatown have received disproportionate funding compared to Southwest Fresno, which faces severe infrastructure deficits despite previously being underfunded. I will prioritize Proposal #9 (West Fresno Magnet Core Workforce Housing) and Proposal #10 (Kings View Manor Rehab) to directly tackle the critical housing shortage in Southwest Fresno, as these neighborhoods lack the commercial density that justifies Downtown's past investments. Additionally, I am adding Proposal #15 (SW Fresno Green Trails & Cycle Paths) and Proposal #34 (Food Commons Hub) to improve mobility and access to healthy food options for our underserved residents. Retaining Proposal #20 (Tulare Complete Streets) ensures physical connectivity across all three areas, while excluding large-scale commercial developments allows me to focus resources on equitable infrastructure rather than housing density targets.",
+  "funded": [
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 10, "title": "Kings View Manor Rehab"},
+    {"id": 15, "title": "SW Fresno Green Trails & Cycle Paths"},
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 34, "title": "Food Commons Hub"},
+    {"id": 35, "title": "FCC West Fresno Satellite"}
+  ]
+}
+
+[Round 4 | Turn 022]  Citizen (SW Fresno)  (citizen_sw_fresno)
+  Gini: 0.6033
+  Budget total (sum of project $ = SW + CH + DT + Shared): $51,819,649
+  SW-tagged (Southwest + Shared): $51,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $51,819,649):
+    Southwest Fresno: $36,619,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $51,819,649
+
+REASONING:
+As Southwest Fresno's representative, I recognize that while the FCC West Fresno Satellite and Tulare Complete Streets provide essential cross-neighborhood benefits, they do not address our specific deficits in housing, environmental hazards, and transportation safety. My community requires direct investment to mitigate heat islands and improve access to green trails and cycle paths. I will add Proposal #15 (SW Fresno Green Trails & Cycle Paths) to fund critical active transportation infrastructure and Proposal #9 (West Fresno Magnet Core Workforce Housing) to tackle the severe housing shortage in my district. These additions ensure that Southwest Fresno receives targeted funding beyond shared projects, balancing the equity gap with Downtown's large-scale commercial developments.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Southwest Fresno's representative, I recognize that while the FCC West Fresno Satellite and Tulare Complete Streets provide essential cross-neighborhood benefits, they do not address our specific deficits in housing, environmental hazards, and transportation safety. My community requires direct investment to mitigate heat islands and improve access to green trails and cycle paths. I will add Proposal #15 (SW Fresno Green Trails & Cycle Paths) to fund critical active transportation infrastructure and Proposal #9 (West Fresno Magnet Core Workforce Housing) to tackle the severe housing shortage in my district. These additions ensure that Southwest Fresno receives targeted funding beyond shared projects, balancing the equity gap with Downtown's large-scale commercial developments.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 15, "title": "SW Fresno Green Trails & Cycle Paths"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"}
+  ]
+}
+
+[Round 4 | Turn 023]  Citizen (Chinatown)  (citizen_chinatown)
+  Gini: 0.4310
+  Budget total (sum of project $ = SW + CH + DT + Shared): $74,144,742
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $74,144,742):
+    Southwest Fresno: $16,900,000  |  Chinatown: $42,044,742  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $74,144,742
+
+REASONING:
+As Chinatown's representative, I must correct the severe equity gap where our historic community remains critically underfunded despite facing aging infrastructure and cultural risks. While Southwest Fresno and Downtown have received significant investment in workforce housing and economic hubs, we cannot afford to let heritage projects like the Lofts and Park remain unaddressed. I am expanding my slate to include #1 (Chinatown Lofts), #2 (Mixed Use Project), #16 (Active Transportation), and #25 (Park) to ensure direct investment in our neighborhood's core needs. Retaining #20 and #35 as anchors, this revised allocation brings Chinatown funding up to $74.8 million while staying well within the allowable budget range.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Chinatown's representative, I must correct the severe equity gap where our historic community remains critically underfunded despite facing aging infrastructure and cultural risks. While Southwest Fresno and Downtown have received significant investment in workforce housing and economic hubs, we cannot afford to let heritage projects like the Lofts and Park remain unaddressed. I am expanding my slate to include #1 (Chinatown Lofts), #2 (Mixed Use Project), #16 (Active Transportation), and #25 (Park) to ensure direct investment in our neighborhood's core needs. Retaining #20 and #35 as anchors, this revised allocation brings Chinatown funding up to $74.8 million while staying well within the allowable budget range.",
+  "funded": [
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 2, "title": "Chinatown Mixed Use Project @ HSR West Entrance"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 25, "title": "Chinatown Park"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"},
+    {"id": 35, "title": "FCC West Fresno Satellite"}
+  ]
+}
+
+[Round 4 | Turn 024]  Citizen (Downtown Fresno)  (citizen_downtown)
+  Gini: 0.7500
+  Budget total (sum of project $ = SW + CH + DT + Shared): $30,858,431
+  SW-tagged (Southwest + Shared): $0
+  Downtown-tagged: $30,858,431
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $30,858,431):
+    Southwest Fresno: $0  |  Chinatown: $0  |  Downtown Fresno: $30,858,431  |  Shared: $0
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#6: North Fulton Street Mixed Use Project | Downtown Fresno | $23,058,431
+  #18: H Complete Street | Downtown Fresno | $7,800,000
+  TCC sum: $30,858,431
+
+REASONING:
+As the Community Representative for Downtown Fresno, I advocate for Proposal #6 (North Fulton Street Mixed Use Project) to directly address our critical housing and economic hub deficits, alongside Proposal #18 (H Complete Street) to improve transit connectivity. These high-impact Downtown projects are essential for revitalizing our civic center, complementing the city-wide infrastructure already selected by my colleagues.
+
+FULL RESPONSE:
+{
+  "reasoning": "As the Community Representative for Downtown Fresno, I advocate for Proposal #6 (North Fulton Street Mixed Use Project) to directly address our critical housing and economic hub deficits, alongside Proposal #18 (H Complete Street) to improve transit connectivity. These high-impact Downtown projects are essential for revitalizing our civic center, complementing the city-wide infrastructure already selected by my colleagues.",
+  "funded": [
+    {"id": 6, "title": "North Fulton Street Mixed Use Project"},
+    {"id": 18, "title": "H Complete Street"}
+  ]
+}
+
+──────────────────────────────────────────────────────────────────────
+  ROUND 5 — PARALLEL
+──────────────────────────────────────────────────────────────────────
+
+[Round 5 | Turn 025]  Sustainability Expert  (sustainability)
+  Gini: 0.6193
+  Budget total (sum of project $ = SW + CH + DT + Shared): $58,169,649
+  SW-tagged (Southwest + Shared): $58,169,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $58,169,649):
+    Southwest Fresno: $42,969,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #10: Kings View Manor Rehab | Southwest Fresno | $6,000,000
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #22: Annadale Mode Shift Project | Southwest Fresno | $350,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $58,169,649
+
+REASONING:
+I am revising the slate to correct the severe equity imbalance where Downtown and Chinatown received massive funding while Southwest Fresno remained under-served despite being a hotspot for climate vulnerability. I retain Proposals #20 and #35 as essential city-wide anchors but add high-priority housing projects #9 (West Fresno Magnet Core Workforce Housing) and #10 (Kings View Manor Rehab) to address critical deficits in the Southwest district. To further balance resources across all three areas, I include active mobility investments #15 (SW Fresno Green Trails & Cycle Paths) and #22 (Annadale Mode Shift Project), ensuring transportation equity extends beyond downtown corridors. This allocation brings the total to $63.7 million, providing direct, lasting environmental and social benefits to historically underserved communities without exceeding the fiscal cap.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising the slate to correct the severe equity imbalance where Downtown and Chinatown received massive funding while Southwest Fresno remained under-served despite being a hotspot for climate vulnerability. I retain Proposals #20 and #35 as essential city-wide anchors but add high-priority housing projects #9 (West Fresno Magnet Core Workforce Housing) and #10 (Kings View Manor Rehab) to address critical deficits in the Southwest district. To further balance resources across all three areas, I include active mobility investments #15 (SW Fresno Green Trails & Cycle Paths) and #22 (Annadale Mode Shift Project), ensuring transportation equity extends beyond downtown corridors. This allocation brings the total to $63.7 million, providing direct, lasting environmental and social benefits to historically underserved communities without exceeding the fiscal cap.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 10, "title": "Kings View Manor Rehab"},
+    {"id": 15, "title": "SW Fresno Green Trails & Cycle Paths"},
+    {"id": 22, "title": "Annadale Mode Shift Project"}
+  ]
+}
+
+[Round 5 | Turn 026]  Financial Expert  (financial)
+  Gini: 0.4687
+  Budget total (sum of project $ = SW + CH + DT + Shared): $54,573,349
+  SW-tagged (Southwest + Shared): $46,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $54,573,349):
+    Southwest Fresno: $31,619,649  |  Chinatown: $7,753,700  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #27: Chinatown Urban Greening (ChUG) Project | Chinatown | $4,085,700
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $54,573,349
+
+REASONING:
+I am revising the slate to correct the severe equity gap where Southwest Fresno and Chinatown remain critically underfunded compared to Downtown's heavy commercial investments. I will retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as the only projects capable of serving all three neighborhoods, acting as universal anchors for connectivity and workforce resilience. To address the housing deficit in Southwest Fresno, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing), while simultaneously investing in Chinatown's infrastructure through #16 (Chinatown Active Transportation Project) and #27 (Chinatown Urban Greening). This combination brings the total allocation to approximately $53.4 million, ensuring a balanced distribution that prioritizes underserved areas without exceeding the fiscal cap.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising the slate to correct the severe equity gap where Southwest Fresno and Chinatown remain critically underfunded compared to Downtown's heavy commercial investments. I will retain Proposals #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) as the only projects capable of serving all three neighborhoods, acting as universal anchors for connectivity and workforce resilience. To address the housing deficit in Southwest Fresno, I am adding Proposal #9 (West Fresno Magnet Core Workforce Housing), while simultaneously investing in Chinatown's infrastructure through #16 (Chinatown Active Transportation Project) and #27 (Chinatown Urban Greening). This combination brings the total allocation to approximately $53.4 million, ensuring a balanced distribution that prioritizes underserved areas without exceeding the fiscal cap.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 27, "title": "Chinatown Urban Greening (ChUG) Project"}
+  ]
+}
+
+[Round 5 | Turn 027]  Urban Planner  (urban_planner)
+  Gini: 0.3628
+  Budget total (sum of project $ = SW + CH + DT + Shared): $72,778,691
+  SW-tagged (Southwest + Shared): $46,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $72,778,691):
+    Southwest Fresno: $31,619,649  |  Chinatown: $25,959,042  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $72,778,691
+
+REASONING:
+I am revising my slate to address the critical equity gap where Southwest Fresno and Chinatown remain severely underfunded compared to Downtown's large commercial projects. I will retain the universal anchors #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) to ensure cross-neighborhood connectivity. To correct the imbalance, I am adding high-priority housing in Southwest Fresno (#9) and Chinatown (#1, #2), along with active transportation for Chinatown (#16). This new allocation brings the total to approximately $64.5 million, prioritizing infrastructure needs in historically disadvantaged areas while staying within the $60M-$66.5M fiscal cap.
+
+FULL RESPONSE:
+{
+  "reasoning": "I am revising my slate to address the critical equity gap where Southwest Fresno and Chinatown remain severely underfunded compared to Downtown's large commercial projects. I will retain the universal anchors #20 (Tulare Complete Streets) and #35 (FCC West Fresno Satellite) to ensure cross-neighborhood connectivity. To correct the imbalance, I am adding high-priority housing in Southwest Fresno (#9) and Chinatown (#1, #2), along with active transportation for Chinatown (#16). This new allocation brings the total to approximately $64.5 million, prioritizing infrastructure needs in historically disadvantaged areas while staying within the $60M-$66.5M fiscal cap.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 2, "title": "Chinatown Mixed Use Project @ HSR West Entrance"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"}
+  ]
+}
+
+[Round 5 | Turn 028]  Citizen (SW Fresno)  (citizen_sw_fresno)
+  Gini: 0.6033
+  Budget total (sum of project $ = SW + CH + DT + Shared): $51,819,649
+  SW-tagged (Southwest + Shared): $51,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $51,819,649):
+    Southwest Fresno: $36,619,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $51,819,649
+
+REASONING:
+As Southwest Fresno's representative, I recognize that while Tulare Complete Streets and the FCC West Fresno Satellite provide essential cross-neighborhood anchors, they do not address our specific deficits in housing, environmental hazards, and transportation safety. My community requires direct investment to mitigate heat islands and improve access to green trails and cycle paths before we can truly claim equitable progress. I will add Proposal #9 (West Fresno Magnet Core Workforce Housing) to tackle the severe housing shortage and Proposal #15 (SW Fresno Green Trails & Cycle Paths) to fund critical active transportation infrastructure for our residents. These additions bring my total allocation to $64,387,052, staying within the $60M-$66.5M range while significantly boosting funding for Southwest Fresno relative to other areas.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Southwest Fresno's representative, I recognize that while Tulare Complete Streets and the FCC West Fresno Satellite provide essential cross-neighborhood anchors, they do not address our specific deficits in housing, environmental hazards, and transportation safety. My community requires direct investment to mitigate heat islands and improve access to green trails and cycle paths before we can truly claim equitable progress. I will add Proposal #9 (West Fresno Magnet Core Workforce Housing) to tackle the severe housing shortage and Proposal #15 (SW Fresno Green Trails & Cycle Paths) to fund critical active transportation infrastructure for our residents. These additions bring my total allocation to $64,387,052, staying within the $60M-$66.5M range while significantly boosting funding for Southwest Fresno relative to other areas.",
+  "funded": [
+    {
+      "id": 20,
+      "title": "Tulare Complete Streets"
+    },
+    {
+      "id": 35,
+      "title": "FCC West Fresno Satellite"
+    },
+    {
+      "id": 9,
+      "title": "West Fresno Magnet Core Workforce Housing"
+    },
+    {
+      "id": 15,
+      "title": "SW Fresno Green Trails & Cycle Paths"
+    }
+  ]
+}
+
+[Round 5 | Turn 029]  Citizen (Chinatown)  (citizen_chinatown)
+  Gini: 0.4124
+  Budget total (sum of project $ = SW + CH + DT + Shared): $70,059,042
+  SW-tagged (Southwest + Shared): $32,100,000
+  Downtown-tagged: $15,200,000
+  Budget-band flags: overfunding
+  Neighborhoods + Shared (sum $70,059,042):
+    Southwest Fresno: $16,900,000  |  Chinatown: $37,959,042  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#1: Chinatown Lofts | Chinatown | $11,500,000
+  #2: Chinatown Mixed Use Project @ HSR West Entrance | Chinatown | $10,791,042
+  #16: Chinatown Active Transportation Project (ChAT) | Chinatown | $3,668,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #25: Chinatown Park | Chinatown | $12,000,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $70,059,042
+
+REASONING:
+As Chinatown's representative, I must correct the severe equity gap where our historic community remains critically underfunded despite facing aging infrastructure and cultural risks. While Southwest Fresno and Downtown have received significant investment in workforce housing and economic hubs, we cannot afford to let heritage projects like the Lofts and Park remain unaddressed. I am expanding my slate to include #1 (Chinatown Lofts), #2 (Mixed Use Project), #16 (Active Transportation), and #25 (Park) alongside the universal anchors #20 and #35 to ensure direct investment in our neighborhood's core needs. This revised allocation brings Chinatown funding up to $74.8 million while staying well within the allowable budget range.
+
+FULL RESPONSE:
+{
+  "reasoning": "As Chinatown's representative, I must correct the severe equity gap where our historic community remains critically underfunded despite facing aging infrastructure and cultural risks. While Southwest Fresno and Downtown have received significant investment in workforce housing and economic hubs, we cannot afford to let heritage projects like the Lofts and Park remain unaddressed. I am expanding my slate to include #1 (Chinatown Lofts), #2 (Mixed Use Project), #16 (Active Transportation), and #25 (Park) alongside the universal anchors #20 and #35 to ensure direct investment in our neighborhood's core needs. This revised allocation brings Chinatown funding up to $74.8 million while staying well within the allowable budget range.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 1, "title": "Chinatown Lofts"},
+    {"id": 2, "title": "Chinatown Mixed Use Project @ HSR West Entrance"},
+    {"id": 16, "title": "Chinatown Active Transportation Project (ChAT)"},
+    {"id": 25, "title": "Chinatown Park"}
+  ]
+}
+
+[Round 5 | Turn 030]  Citizen (Downtown Fresno)  (citizen_downtown)
+  Gini: 0.6033
+  Budget total (sum of project $ = SW + CH + DT + Shared): $51,819,649
+  SW-tagged (Southwest + Shared): $51,819,649
+  Downtown-tagged: $15,200,000
+  Budget-band flags: underfunding
+  Neighborhoods + Shared (sum $51,819,649):
+    Southwest Fresno: $36,619,649  |  Chinatown: $0  |  Downtown Fresno: $0  |  Shared: $15,200,000
+────────────────────────────────────────────────────────────────────────────────
+FUNDED (each ID at catalog TCC; sum is the budget total):
+#9: West Fresno Magnet Core Workforce Housing | Southwest Fresno | $14,719,649
+  #15: SW Fresno Green Trails & Cycle Paths | Southwest Fresno | $5,000,000
+  #20: Tulare Complete Streets | Downtown Fresno / Chinatown / Southwest Fresno | $15,200,000
+  #35: FCC West Fresno Satellite | Southwest Fresno | $16,900,000
+  TCC sum: $51,819,649
+
+REASONING:
+I recognize that while Downtown projects like North Fulton Street and H Complete Street are vital for our economic hub, the current slate creates an unbalanced equity gap where Southwest Fresno receives almost no funding compared to Chinatown and Downtown. To correct this without exceeding the $66.5 million budget cap, I am prioritizing high-impact housing and mobility solutions for Southwest Fresno that address heat islands and displacement risks. I will add Proposal #9 (West Fresno Magnet Core Workforce Housing) and Proposal #15 (SW Fresno Green Trails & Cycle Paths) to directly serve our residents' critical needs in addition to the universal anchors selected by colleagues.
+
+FULL RESPONSE:
+{
+  "reasoning": "I recognize that while Downtown projects like North Fulton Street and H Complete Street are vital for our economic hub, the current slate creates an unbalanced equity gap where Southwest Fresno receives almost no funding compared to Chinatown and Downtown. To correct this without exceeding the $66.5 million budget cap, I am prioritizing high-impact housing and mobility solutions for Southwest Fresno that address heat islands and displacement risks. I will add Proposal #9 (West Fresno Magnet Core Workforce Housing) and Proposal #15 (SW Fresno Green Trails & Cycle Paths) to directly serve our residents' critical needs in addition to the universal anchors selected by colleagues.",
+  "funded": [
+    {"id": 20, "title": "Tulare Complete Streets"},
+    {"id": 35, "title": "FCC West Fresno Satellite"},
+    {"id": 9, "title": "West Fresno Magnet Core Workforce Housing"},
+    {"id": 15, "title": "SW Fresno Green Trails & Cycle Paths"}
+  ]
+}
+
+==========================================================================================
+FINAL-ROUND CONSENSUS  (round 5, 6 panelists)
+Each project: (sum of 6 panelists' TCC amounts) / 6. Unfunded = $0.
+==========================================================================================
+  #35  FCC West Fresno Satellite                         Southwest Fresno              6/6 agents  avg $16,900,000  (TCC $16,900,000)
+  #20  Tulare Complete Streets                           Downtown Fresno / Chinatown / Southwest Fresno  6/6 agents  avg $15,200,000  (TCC $15,200,000)
+  #9   West Fresno Magnet Core Workforce Housing         Southwest Fresno              5/6 agents  avg $12,266,374  (TCC $14,719,649)
+  #1   Chinatown Lofts                                   Chinatown                     2/6 agents  avg $3,833,333  (TCC $11,500,000)
+  #2   Chinatown Mixed Use Project @ HSR West Entrance   Chinatown                     2/6 agents  avg $3,597,014  (TCC $10,791,042)
+  #15  SW Fresno Green Trails & Cycle Paths              Southwest Fresno              3/6 agents  avg $2,500,000  (TCC $5,000,000)
+  #25  Chinatown Park                                    Chinatown                     1/6 agents  avg $2,000,000  (TCC $12,000,000)
+  #16  Chinatown Active Transportation Project (ChAT)    Chinatown                     3/6 agents  avg $1,834,000  (TCC $3,668,000)
+  #10  Kings View Manor Rehab                            Southwest Fresno              1/6 agents  avg $1,000,000  (TCC $6,000,000)
+  #27  Chinatown Urban Greening (ChUG) Project           Chinatown                     1/6 agents  avg $680,950  (TCC $4,085,700)
+  #22  Annadale Mode Shift Project                       Southwest Fresno              1/6 agents  avg $58,333  (TCC $350,000)
+  … 23 catalog projects averaged $0
+==========================================================================================
+
+==========================================================================================
+TRANSCRIPT END  2026-08-24T08:40:15.902283+00:00
+==========================================================================================

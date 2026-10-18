@@ -1,0 +1,43 @@
+# ============================================================
+# Fresno Infrastructure Budget Allocation — Bias Study
+# Python dependencies
+# ============================================================
+
+# ---- LLM backend (Ollama) ----------------------------------
+# Primary interface: the Python library (preferred)
+ollama>=0.3.0
+
+# Fallback HTTP interface (also used if ollama library absent)
+requests>=2.31.0
+
+# ---- PDF parsing -------------------------------------------
+pdfplumber>=0.10.0
+
+# ---- Data / numerics ---------------------------------------
+numpy>=1.24.0
+pandas>=2.0.0           # optional; used for any tabular post-processing
+
+# ---- Plotting ----------------------------------------------
+matplotlib>=3.7.0
+
+# ---- Utilities ---------------------------------------------
+tqdm>=4.66.0            # progress bars (optional, used in long batch runs)
+
+# ---- Testing -----------------------------------------------
+pytest>=8.0.0
+
+# ============================================================
+# Installation notes (NVIDIA A100 40GB/80GB / JupyterLab):
+#
+#   export OLLAMA_FLASH_ATTENTION=1
+#   export OLLAMA_MAX_LOADED_MODELS=2
+#   pip install -r requirements.txt
+#   bash run_a100.sh
+#
+# Then pull the required Ollama models before running:
+#   ollama pull qwen3.5:4b        # experiments 1, 2, 5
+#   ollama pull qwen3.5:9b        # experiments 3–5
+#
+# If your Ollama installation uses different model tags, update
+# config.MODELS accordingly.
+# ============================================================

@@ -1,0 +1,35 @@
+# Default experiment settings — override in the notebook or via CLI.
+
+budget_usd: 70000000
+n_rounds: 4
+topology: fully_connected   # fully_connected | star | ring | hierarchical | neighborhood_clusters
+speaker_order: rotate       # rotate | fixed | random
+
+backend: ollama
+ollama_host: http://127.0.0.1:11466
+clone_per_agent: true       # ollama cp → five named models, one per agent
+ollama_keep_alive: 30m
+ollama_parallel: true
+
+# Five clones of this one 3B model. No other families are run.
+model_name: qwen2.5:3b
+model_size: 3b
+trial_3b_models:
+  - qwen2.5:3b
+trial_7b_models: []
+
+max_model_len: 16384
+temperature: 0.7
+top_p: 0.9
+max_tokens: 2200
+seed: 42
+
+# Agents only see text extracted from PDFs you place here (one combined PDF or many one-pagers).
+proposals_dir: proposals
+proposals_json: ""
+use_sample_if_empty: false
+
+output_dir: outputs
+# Leave blank to write outputs/fresno_deliberation_<timestamp>.json
+record_file: ""
+target_n_projects: 25
